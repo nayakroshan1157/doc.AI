@@ -22,14 +22,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar/>
-        <div className="min-h-screen">
+         <main className="flex-1 w-full bg-sky-500">
+        
         {children}
-        </div>
+        </main>
         <Footer/>
       </body>
     </html>
   );
 }
+
