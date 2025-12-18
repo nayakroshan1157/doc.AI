@@ -26,16 +26,17 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="relative">
-          <div className="h-80 w-full rounded-3xl bg-slate-400 shadow-inner flex items-center justify-between">
-            <span className="text-indigo-600 font-semibold pl-2">AI + Healthcare Illustration</span>
-            <div className="flex justify-center ml-40 pt-1">
+        <div className="flex space-x-5 justify-between  px-2 md:px-15 lg:px-15 py-2 h-80 w-full rounded-3xl bg-slate-400 shadow-inner  items-center ">
+          <div className="">
+            <span className="text-indigo-600 font-semibold ">“Delivering reliable medical support anytime, anywhere using artificial intelligence.”</span>
+            <p className="space-x-2.5">    by:-Vikramaditya Dash</p> </div>
+            <div className="">
         <Lottie
           animationData={AI}
           className="w-80 h-80 md:w-56 md:h-56"
         />
      </div>
-          </div>
+         
         </div>
       </section>
       {/* Doctors Section */}
