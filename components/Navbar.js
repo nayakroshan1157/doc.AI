@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href="/" className="text-blue-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">Home</Link>
         </li>
         <li>
-            <Link href="/profile" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">About Us</Link>
+            <Link href="/about" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">About Us</Link>
         </li>
         <li>
             <Link href="/service" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">Services</Link>
