@@ -33,7 +33,7 @@ export default function Home() {
             <div className="">
         <Lottie
           animationData={AI}
-          className="w-80 h-80 md:w-56 md:h-56"
+          className="w-100 h-100 md:w-56 md:h-56"
         />
      </div>
          

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nayak/OneDrive/Desktop/doc.ai/app/page.js"],"sourcesContent":["\"use client\";\n\n// import Image from \"next/image\";\n// import Lottie from \"lottie-react\";\n// import AI from \"./AI bot.json\"\nexport default function Home() {\n  return (\n    <div>\n       <h1>this is the home page</h1>\n    </div>\n  \n\n\n\n\n\n\n\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAKe,SAAS;IACtB,qBACE,8OAAC;kBACE,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAWX"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nayak/OneDrive/Desktop/doc.ai/app/%5Busername%5D/page.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Username = ({params }) => {\r\n  return (\r\n    <div className='text-white'>\r\n      {params.username}\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Username\r\n{params }"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,WAAW,CAAC,EAAC,QAAA,OAAM,EAAE;IACzB,qBACE,8OAAC;QAAI,WAAU;kBACZ,QAAO,QAAQ;;;;;;AAGtB;uCAEe;AACf;IAAC;AAAO"}},
+    {"offset": {"line": 39, "column": 1}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

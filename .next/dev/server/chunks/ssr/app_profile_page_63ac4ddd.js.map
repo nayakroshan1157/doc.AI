@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nayak/OneDrive/Desktop/doc.ai/app/profile/page.js"],"sourcesContent":["\"use client\"\r\nimport React from 'react'\r\n\r\nconst profile = () => {\r\n  return (\r\n    <div>\r\n      profile page\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default profile\r\n\r\n"],"names":[],"mappings":";;;;;AACA;AADA;;;AAGA,MAAM,UAAU;IACd,qBACE,8OAAC;kBAAI;;;;;;AAIT;uCAEe"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nayak/OneDrive/Desktop/doc.ai/app/page.js"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n      <div>\n        <p>hello world </p>\n      </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACI,8OAAC;kBACC,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAGX"}}]
+}
