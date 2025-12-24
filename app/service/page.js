@@ -1,6 +1,12 @@
 import React from 'react'
-
+// import { useSession, signIn, signOut } from "next-auth/react"
+// import { useRouter } from 'next/navigation'
 const service = () => {
+  // const { data: session } = useSession()
+  //     if (!session) {
+  //        const router = useRouter()
+  //        router.push('/login')
+  //     }
   return (
   <section className="bg-gray-50 py-16">
   <div className="max-w-7xl mx-auto px-6">
@@ -31,9 +37,12 @@ const service = () => {
             and lifestyle indicators.
           </p>
         </div>
-        <a href="/diabetes" className="inline-block text-center bg-blue-600 text-white py-2 rounded-lg font-medium hover:bg-blue-700 transition">
-          Check Now
+       
+      
+  <a href="http://localhost:8501/?embed=true" className="inline-block text-center bg-red-600 text-white py-2 rounded-lg font-medium hover:bg-red-700 transition">
+         Check Now
         </a>
+
       </div>
 
       {/* <!-- Multiple Disease Prediction --> */}

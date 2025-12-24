@@ -11,12 +11,12 @@ const Login = () => {
     return (
     <div className='text-white py-14 container mx-auto'>
         <h1 className='text-center font-bold text-3xl'>Signup/Login to get connect with Us</h1>
-        <div class="flex flex-col gap-2 min-h-screen p-10 items-center">
+        <div className="flex flex-col gap-2 min-h-screen p-10 items-center">
 
 
             <button
                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-                <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                     viewBox="-0.5 0 48 48" version="1.1">
 
                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -38,12 +38,12 @@ const Login = () => {
                         </g>
                     </g>
                 </svg>
-                <span>Continue with Google</span>
+                 <span onClick={() => { signIn("google") }}>Continue with Google</span>
             </button>
 
             <button
                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-                <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                     viewBox="0 -4 48 48" version="1.1">
                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Color-" transform="translate(-300.000000, -164.000000)" fill="#00AAEC">
@@ -61,7 +61,7 @@ const Login = () => {
 
             <button
                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-                <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                     viewBox="0 0 73 73" version="1.1">
                     <g id="team-collaboration/version-control/github" stroke="none" stroke-width="1" fill="none"
                         fill-rule="evenodd">
@@ -84,7 +84,7 @@ const Login = () => {
 
             <button
                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-                <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                     viewBox="0 0 48 48" version="1.1">
                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0">
@@ -102,7 +102,7 @@ const Login = () => {
 
             <button
                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
-                <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+                <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                     viewBox="-1.5 0 20 20" version="1.1">
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="Dribbble-Light-Preview" transform="translate(-102.000000, -7439.000000)" fill="#000000">
@@ -119,6 +119,28 @@ const Login = () => {
 
                 <span>Continue with Apple</span>
             </button>
+
+         <button
+  className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+>
+  {/* Email Icon */}
+  <svg
+    className="h-6 w-6 mr-2"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+    />
+  </svg>
+
+  <span>Continue with Email</span>
+</button>
 
 
         </div>

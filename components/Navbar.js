@@ -40,9 +40,6 @@ const Navbar = () => {
         <li>
             <Link href="/about" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">About Us</Link>
         </li>
-        <li>
-            <Link href="/service" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">Services</Link>
-        </li>
       </ul> 
       </div>
       {/* <div> */}
@@ -56,6 +53,9 @@ const Navbar = () => {
 {/* <!-- Dropdown menu --> */}
 <div id="dropdown" className={`z-10  ${showdropdown?"":"hidden"} absolute right-{125px} bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44`}>
     <ul className="p-2 text-sm text-body font-medium" aria-labelledby="dropdownDefaultButton">
+        <li>
+            <Link href="/service" className="text-gray-50 hover:text-sky-600 font-medium transition duration-300 hidden md:block">Services</Link>
+        </li>
       <li>
         <Link href="/profile" className="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Profile</Link>
       </li>

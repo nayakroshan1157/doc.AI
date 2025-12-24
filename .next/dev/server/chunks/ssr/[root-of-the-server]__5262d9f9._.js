@@ -22,9 +22,18 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <locals>");
+;
+;
 ;
 ;
 const service = ()=>{
+    // const { data: session } = useSession()
+    //         if (!session) {
+    //            const router = useRouter()
+    //            router.push('/login')
+    //         }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "bg-gray-50 py-16",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -38,7 +47,7 @@ const service = ()=>{
                             children: "Our AI Healthcare Services"
                         }, void 0, false, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 10,
+                            lineNumber: 16,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -46,13 +55,13 @@ const service = ()=>{
                             children: "AI-powered healthcare solutions for early prediction, prevention, and personalized treatment."
                         }, void 0, false, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 13,
+                            lineNumber: 19,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/service/page.js",
-                    lineNumber: 9,
+                    lineNumber: 15,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -68,7 +77,7 @@ const service = ()=>{
                                             children: "🩸"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 25,
+                                            lineNumber: 31,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -76,7 +85,7 @@ const service = ()=>{
                                             children: "Diabetes Prediction"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 26,
+                                            lineNumber: 32,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -84,28 +93,28 @@ const service = ()=>{
                                             children: "AI-based prediction of diabetes using medical data and lifestyle indicators."
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 29,
+                                            lineNumber: 35,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 24,
+                                    lineNumber: 30,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/diabetes",
-                                    className: "inline-block text-center bg-blue-600 text-white py-2 rounded-lg font-medium hover:bg-blue-700 transition",
+                                    href: "http://localhost:8501/?embed=true",
+                                    className: "inline-block text-center bg-red-600 text-white py-2 rounded-lg font-medium hover:bg-red-700 transition",
                                     children: "Check Now"
                                 }, void 0, false, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 34,
-                                    columnNumber: 9
+                                    lineNumber: 42,
+                                    columnNumber: 3
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 23,
+                            lineNumber: 29,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -118,7 +127,7 @@ const service = ()=>{
                                             children: "🧬"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 42,
+                                            lineNumber: 51,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -126,7 +135,7 @@ const service = ()=>{
                                             children: "Multiple Disease Prediction"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 43,
+                                            lineNumber: 52,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -134,13 +143,13 @@ const service = ()=>{
                                             children: "Predicts multiple diseases by analyzing symptoms and health records."
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 46,
+                                            lineNumber: 55,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 41,
+                                    lineNumber: 50,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -149,13 +158,13 @@ const service = ()=>{
                                     children: "Explore"
                                 }, void 0, false, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 51,
+                                    lineNumber: 60,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 40,
+                            lineNumber: 49,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -168,7 +177,7 @@ const service = ()=>{
                                             children: "❤️"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 59,
+                                            lineNumber: 68,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -176,7 +185,7 @@ const service = ()=>{
                                             children: "Heart Disease Analysis"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 60,
+                                            lineNumber: 69,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -184,13 +193,13 @@ const service = ()=>{
                                             children: "AI-driven heart disease risk assessment using patient vitals and reports."
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 63,
+                                            lineNumber: 72,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 58,
+                                    lineNumber: 67,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -199,13 +208,13 @@ const service = ()=>{
                                     children: "Analyze"
                                 }, void 0, false, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 68,
+                                    lineNumber: 77,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 57,
+                            lineNumber: 66,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -218,7 +227,7 @@ const service = ()=>{
                                             children: "🤰"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 76,
+                                            lineNumber: 85,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -226,7 +235,7 @@ const service = ()=>{
                                             children: "Maternal Health Care"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 77,
+                                            lineNumber: 86,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -234,13 +243,13 @@ const service = ()=>{
                                             children: "AI-assisted maternal risk monitoring and prenatal health recommendations."
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 80,
+                                            lineNumber: 89,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 75,
+                                    lineNumber: 84,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -249,19 +258,19 @@ const service = ()=>{
                                     children: "View Care"
                                 }, void 0, false, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 85,
+                                    lineNumber: 94,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 74,
+                            lineNumber: 83,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/service/page.js",
-                    lineNumber: 20,
+                    lineNumber: 26,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -272,23 +281,23 @@ const service = ()=>{
                         children: "Book Doctor Consultation"
                     }, void 0, false, {
                         fileName: "[project]/app/service/page.js",
-                        lineNumber: 94,
+                        lineNumber: 103,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/service/page.js",
-                    lineNumber: 93,
+                    lineNumber: 102,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/service/page.js",
-            lineNumber: 6,
+            lineNumber: 12,
             columnNumber: 3
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/service/page.js",
-        lineNumber: 5,
+        lineNumber: 11,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 };

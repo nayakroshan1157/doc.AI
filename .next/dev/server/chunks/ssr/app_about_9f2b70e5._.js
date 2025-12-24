@@ -8,169 +8,169 @@ __turbopack_context__.v(JSON.parse("{\"v\":\"5.12.2\",\"fr\":60,\"ip\":0,\"op\":
 "[project]/app/about/page.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import Link from "next/link";
-// import { motion } from "framer-motion";
-// const fadeUp = {
-//   hidden: { opacity: 0, y: 40 },
-//   visible: { opacity: 1, y: 0 },
-//   transition:{ duration: 0.6 }
-// };
-// const stagger = {
-//   hidden: {},
-//   visible: {
-//     transition: {
-//       staggerChildren: 0.2
-//     }
-//   }
-// };
-// export default function AboutDocAI() {
-//   return (
-//     <section className="bg-gradient-to-b from-blue-50 via-white to-green-50 py-16">
-//       <div className="max-w-7xl mx-auto px-6">
-//         {/* Header */}
-//         <motion.div
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true }}
-//           variants={fadeUp}
-//           transition={{ duration: 0.6 }}
-//           className="text-center mb-16"
-//         >
-//           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-//             About 
-//         <Link
-//           href="/" className="text-white m-4 hover:text-blue-300 transition duration-300">
-//          DOC.<span className="text-blue-400">AI</span>
-//         </Link>
-//           </h1>
-//           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-//             Doc.AI is an AI-powered healthcare platform designed to assist
-//             doctors and patients with early disease prediction, preventive
-//             care, and personalized medical insights.
-//           </p>
-//         </motion.div>
-//         {/* What is Doc.AI */}
-//         <motion.div
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true }}
-//           variants={stagger}
-//           className="grid md:grid-cols-2 gap-12 items-center mb-20"
-//         >
-//           <motion.div variants={fadeUp}>
-//             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-//               What is Doc.AI?
-//             </h2>
-//             <p className="text-gray-600 leading-relaxed mb-4">
-//               Doc.AI combines artificial intelligence with clinical knowledge
-//               to analyze patient symptoms, lab reports, vitals, and medical
-//               history.
-//             </p>
-//             <p className="text-gray-600 leading-relaxed">
-//               It supports early detection of diabetes, heart disease, and
-//               maternal health risks, enabling timely medical intervention.
-//             </p>
-//           </motion.div>
-//           <motion.div
-//             variants={fadeUp}
-//             className="bg-gray-50 rounded-xl p-8 shadow-sm"
-//           >
-//             <ul className="space-y-4 text-gray-700">
-//               <li>✔ AI-assisted disease prediction</li>
-//               <li>✔ Preventive healthcare analytics</li>
-//               <li>✔ Personalized treatment insights</li>
-//               <li>✔ Secure & ethical data handling</li>
-//             </ul>
-//           </motion.div>
-//         </motion.div>
-//         {/* Mission & Vision */}
-//         <motion.div
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true }}
-//           variants={stagger}
-//           className="grid md:grid-cols-2 gap-12 mb-20"
-//         >
-//           <motion.div
-//             variants={fadeUp}
-//             className="bg-blue-50 p-8 rounded-xl"
-//           >
-//             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-//               Our Mission
-//             </h3>
-//             <p className="text-gray-700 leading-relaxed">
-//               To make quality healthcare accessible using AI-driven early
-//               disease detection and preventive care.
-//             </p>
-//           </motion.div>
-//           <motion.div
-//             variants={fadeUp}
-//             className="bg-green-50 p-8 rounded-xl"
-//           >
-//             <h3 className="text-xl font-semibold text-green-800 mb-3">
-//               Our Vision
-//             </h3>
-//             <p className="text-gray-700 leading-relaxed">
-//               To transform healthcare by empowering doctors with intelligent
-//               clinical decision support systems.
-//             </p>
-//           </motion.div>
-//         </motion.div>
-//         {/* How It Works */}
-//         <motion.div
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true }}
-//           variants={stagger}
-//           className="mb-20"
-//         >
-//           <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">
-//             How Doc.AI Works
-//           </h2>
-//           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-//             {[
-//               { title: "Data Collection", desc: "Collects symptoms, reports, and vitals." },
-//               { title: "AI Analysis", desc: "ML models analyze health patterns." },
-//               { title: "Prediction", desc: "Predicts disease probability." },
-//               { title: "Doctor Support", desc: "Assists doctors in decision-making." }
-//             ].map((item, index) => (
-//               <motion.div
-//                 key={index}
-//                 variants={fadeUp}
-//                 className="bg-gray-50 p-6 rounded-xl shadow-sm text-center"
-//               >
-//                 <h4 className="font-semibold mb-2">{item.title}</h4>
-//                 <p className="text-gray-600 text-sm">{item.desc}</p>
-//               </motion.div>
-//             ))}
-//           </div>
-//         </motion.div>
-//         {/* Ethics */}
-//         <motion.div
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true }}
-//           variants={fadeUp}
-//           transition={{ duration: 0.7 }}
-//           className="bg-gray-900 text-white rounded-2xl p-10 text-center"
-//         >
-//           <h2 className="text-2xl font-semibold mb-4">
-//             Ethical & Responsible AI
-//           </h2>
-//           <p className="text-gray-300 max-w-3xl mx-auto">
-//             Doc.AI follows ethical AI practices, ensuring transparency,
-//             fairness, and data privacy while assisting—not replacing—
-//             medical professionals.
-//           </p>
-//         </motion.div>
-//       </div>
-//     </section>
-//   );
-// }
+// // "use client";
+// // import Link from "next/link";
+// // import { motion } from "framer-motion";
+// // const fadeUp = {
+// //   hidden: { opacity: 0, y: 40 },
+// //   visible: { opacity: 1, y: 0 },
+// //   transition:{ duration: 0.6 }
+// // };
+// // const stagger = {
+// //   hidden: {},
+// //   visible: {
+// //     transition: {
+// //       staggerChildren: 0.2
+// //     }
+// //   }
+// // };
+// // export default function AboutDocAI() {
+// //   return (
+// //     <section className="bg-gradient-to-b from-blue-50 via-white to-green-50 py-16">
+// //       <div className="max-w-7xl mx-auto px-6">
+// //         {/* Header */}
+// //         <motion.div
+// //           initial="hidden"
+// //           whileInView="visible"
+// //           viewport={{ once: true }}
+// //           variants={fadeUp}
+// //           transition={{ duration: 0.6 }}
+// //           className="text-center mb-16"
+// //         >
+// //           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+// //             About 
+// //         <Link
+// //           href="/" className="text-white m-4 hover:text-blue-300 transition duration-300">
+// //          DOC.<span className="text-blue-400">AI</span>
+// //         </Link>
+// //           </h1>
+// //           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
+// //             Doc.AI is an AI-powered healthcare platform designed to assist
+// //             doctors and patients with early disease prediction, preventive
+// //             care, and personalized medical insights.
+// //           </p>
+// //         </motion.div>
+// //         {/* What is Doc.AI */}
+// //         <motion.div
+// //           initial="hidden"
+// //           whileInView="visible"
+// //           viewport={{ once: true }}
+// //           variants={stagger}
+// //           className="grid md:grid-cols-2 gap-12 items-center mb-20"
+// //         >
+// //           <motion.div variants={fadeUp}>
+// //             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+// //               What is Doc.AI?
+// //             </h2>
+// //             <p className="text-gray-600 leading-relaxed mb-4">
+// //               Doc.AI combines artificial intelligence with clinical knowledge
+// //               to analyze patient symptoms, lab reports, vitals, and medical
+// //               history.
+// //             </p>
+// //             <p className="text-gray-600 leading-relaxed">
+// //               It supports early detection of diabetes, heart disease, and
+// //               maternal health risks, enabling timely medical intervention.
+// //             </p>
+// //           </motion.div>
+// //           <motion.div
+// //             variants={fadeUp}
+// //             className="bg-gray-50 rounded-xl p-8 shadow-sm"
+// //           >
+// //             <ul className="space-y-4 text-gray-700">
+// //               <li>✔ AI-assisted disease prediction</li>
+// //               <li>✔ Preventive healthcare analytics</li>
+// //               <li>✔ Personalized treatment insights</li>
+// //               <li>✔ Secure & ethical data handling</li>
+// //             </ul>
+// //           </motion.div>
+// //         </motion.div>
+// //         {/* Mission & Vision */}
+// //         <motion.div
+// //           initial="hidden"
+// //           whileInView="visible"
+// //           viewport={{ once: true }}
+// //           variants={stagger}
+// //           className="grid md:grid-cols-2 gap-12 mb-20"
+// //         >
+// //           <motion.div
+// //             variants={fadeUp}
+// //             className="bg-blue-50 p-8 rounded-xl"
+// //           >
+// //             <h3 className="text-xl font-semibold text-blue-800 mb-3">
+// //               Our Mission
+// //             </h3>
+// //             <p className="text-gray-700 leading-relaxed">
+// //               To make quality healthcare accessible using AI-driven early
+// //               disease detection and preventive care.
+// //             </p>
+// //           </motion.div>
+// //           <motion.div
+// //             variants={fadeUp}
+// //             className="bg-green-50 p-8 rounded-xl"
+// //           >
+// //             <h3 className="text-xl font-semibold text-green-800 mb-3">
+// //               Our Vision
+// //             </h3>
+// //             <p className="text-gray-700 leading-relaxed">
+// //               To transform healthcare by empowering doctors with intelligent
+// //               clinical decision support systems.
+// //             </p>
+// //           </motion.div>
+// //         </motion.div>
+// //         {/* How It Works */}
+// //         <motion.div
+// //           initial="hidden"
+// //           whileInView="visible"
+// //           viewport={{ once: true }}
+// //           variants={stagger}
+// //           className="mb-20"
+// //         >
+// //           <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">
+// //             How Doc.AI Works
+// //           </h2>
+// //           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+// //             {[
+// //               { title: "Data Collection", desc: "Collects symptoms, reports, and vitals." },
+// //               { title: "AI Analysis", desc: "ML models analyze health patterns." },
+// //               { title: "Prediction", desc: "Predicts disease probability." },
+// //               { title: "Doctor Support", desc: "Assists doctors in decision-making." }
+// //             ].map((item, index) => (
+// //               <motion.div
+// //                 key={index}
+// //                 variants={fadeUp}
+// //                 className="bg-gray-50 p-6 rounded-xl shadow-sm text-center"
+// //               >
+// //                 <h4 className="font-semibold mb-2">{item.title}</h4>
+// //                 <p className="text-gray-600 text-sm">{item.desc}</p>
+// //               </motion.div>
+// //             ))}
+// //           </div>
+// //         </motion.div>
+// //         {/* Ethics */}
+// //         <motion.div
+// //           initial="hidden"
+// //           whileInView="visible"
+// //           viewport={{ once: true }}
+// //           variants={fadeUp}
+// //           transition={{ duration: 0.7 }}
+// //           className="bg-gray-900 text-white rounded-2xl p-10 text-center"
+// //         >
+// //           <h2 className="text-2xl font-semibold mb-4">
+// //             Ethical & Responsible AI
+// //           </h2>
+// //           <p className="text-gray-300 max-w-3xl mx-auto">
+// //             Doc.AI follows ethical AI practices, ensuring transparency,
+// //             fairness, and data privacy while assisting—not replacing—
+// //             medical professionals.
+// //           </p>
+// //         </motion.div>
+// //       </div>
+// //     </section>
+// //   );
+// // }
 __turbopack_context__.s([
     "default",
-    ()=>DocAIPage
+    ()=>AboutDocAI
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
@@ -203,89 +203,210 @@ const stagger = {
         }
     }
 };
-function DocAIPage() {
+function AboutDocAI() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "bg-gradient-to-b from-blue-50 via-white to-green-50",
+        className: "bg-white text-gray-900 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "h-125px flex items-center justify-center px-6",
+                className: "py-28 bg-gradient-to-br from-blue-50 to-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: "hidden",
                     animate: "visible",
-                    variants: fadeUp,
-                    transition: {
-                        duration: 0.8
-                    },
-                    className: "text-center max-w-4xl",
+                    variants: stagger,
+                    className: "max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-5xl md:text-6xl font-extrabold text-gray-900",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            variants: fadeUp,
                             children: [
-                                "Smarter Healthcare with",
-                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "bg-gradient-to-r from-blue-600 to-green-500 bg-clip-text text-transparent",
-                                    children: "DOC.AI"
+                                    className: "inline-block mb-4 px-4 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full",
+                                    children: "About Doc.AI"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 214,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 212,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "mt-6 text-lg text-gray-600",
-                            children: "AI-powered disease prediction, preventive care, and intelligent doctor assistance."
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 218,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-8 flex justify-center gap-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "#about",
-                                    className: "px-6 py-3 bg-blue-600 text-white rounded-xl",
-                                    children: "Learn More"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/about/page.js",
-                                    lineNumber: 224,
+                                    lineNumber: 437,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "#ethics",
-                                    className: "px-6 py-3 border border-blue-600 text-blue-600 rounded-xl",
-                                    children: "Ethics"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-5xl font-extrabold leading-tight mb-6",
+                                    children: [
+                                        "Making Healthcare ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 442,
+                                            columnNumber: 33
+                                        }, this),
+                                        " Clear, Calm & Intelligent"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 441,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 text-lg mb-4",
+                                    children: "Doc.AI was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 227,
+                                    lineNumber: 445,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-gray-600 text-lg",
+                                    children: "We believe technology should reduce anxiety, not create it."
+                                }, void 0, false, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 451,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 223,
+                            lineNumber: 436,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            variants: fadeUp,
+                            className: "flex justify-center",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
+                                animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$about$2f$Doctor$2c$__Medical$2c$__Surgeon$2c$__Healthcare__Animation$2e$json__$28$json$29$__["default"],
+                                className: "w-72 h-72 md:w-80 md:h-80",
+                                loop: true
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 458,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/about/page.js",
+                            lineNumber: 457,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 205,
+                    lineNumber: 430,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 204,
+                lineNumber: 429,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                id: "about",
-                className: "py-24 px-6",
+                className: "py-20 bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    className: "py-28 bg-white",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "max-w-6xl mx-auto px-6 text-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-4xl font-bold mb-6",
+                                children: "How Doc.AI Thinks"
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 492,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-600 text-lg max-w-3xl mx-auto mb-16",
+                                children: "Doc.AI follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 496,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid md:grid-cols-5 gap-6 text-sm",
+                                children: [
+                                    [
+                                        "📥",
+                                        "Data Input",
+                                        "Lab reports & vitals"
+                                    ],
+                                    [
+                                        "🧹",
+                                        "Preprocessing",
+                                        "Cleaning & normalization"
+                                    ],
+                                    [
+                                        "🧠",
+                                        "AI Analysis",
+                                        "Pattern & risk detection"
+                                    ],
+                                    [
+                                        "📊",
+                                        "Insight Generation",
+                                        "Trends & explanations"
+                                    ],
+                                    [
+                                        "👨‍⚕️",
+                                        "Doctor Review",
+                                        "Final medical decision"
+                                    ]
+                                ].map(([icon, title, desc], i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "p-6 bg-blue-50 rounded-xl shadow",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-3xl mb-3",
+                                                children: icon
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/about/page.js",
+                                                lineNumber: 513,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                className: "font-semibold mb-1",
+                                                children: title
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/about/page.js",
+                                                lineNumber: 514,
+                                                columnNumber: 11
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-600",
+                                                children: desc
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/about/page.js",
+                                                lineNumber: 515,
+                                                columnNumber: 11
+                                            }, this)
+                                        ]
+                                    }, i, true, {
+                                        fileName: "[project]/app/about/page.js",
+                                        lineNumber: 509,
+                                        columnNumber: 9
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 501,
+                                columnNumber: 5
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xs text-gray-500 mt-10",
+                                children: "AI assists in analysis — medical authority always remains with doctors."
+                            }, void 0, false, {
+                                fileName: "[project]/app/about/page.js",
+                                lineNumber: 520,
+                                columnNumber: 5
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/about/page.js",
+                        lineNumber: 491,
+                        columnNumber: 3
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/about/page.js",
+                    lineNumber: 490,
+                    columnNumber: 4
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/about/page.js",
+                lineNumber: 488,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "py-28 bg-blue-50",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                     initial: "hidden",
                     whileInView: "visible",
@@ -293,407 +414,470 @@ function DocAIPage() {
                         once: true
                     },
                     variants: stagger,
-                    className: "max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center",
+                    className: "max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                            className: "flex justify-center ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                            variants: fadeUp,
+                            className: "flex justify-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
-                                animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$about$2f$Doctor$2c$__Medical$2c$__Surgeon$2c$__Healthcare__Animation$2e$json__$28$json$29$__["default"],
-                                className: "w-72 h-72 md:w-80 md:h-80"
+                                animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$about$2f$Book__with__bookmark$2e$json__$28$json$29$__["default"],
+                                className: "w-64 h-64 md:w-80 md:h-80",
+                                loop: true
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 246,
-                                columnNumber: 3
+                                lineNumber: 540,
+                                columnNumber: 12
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 245,
-                            columnNumber: 1
+                            lineNumber: 539,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             variants: fadeUp,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "text-3xl font-bold text-gray-800 mb-6",
-                                    children: "About Doc.AI"
+                                    className: "text-4xl font-bold mb-6",
+                                    children: "Patient-First. Doctor-Guided."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 252,
+                                    lineNumber: 548,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-600 mb-4 leading-relaxed",
-                                    children: "Doc.AI was created to bridge the gap between massive medical data and timely clinical decisions. It uses artificial intelligence to analyze symptoms, reports, and vitals."
+                                    className: "text-gray-600 text-lg mb-4",
+                                    children: "Doc.AI is designed to support patients with early insights, simplified explanations, and continuous health awareness."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 255,
+                                    lineNumber: 552,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-600 leading-relaxed",
-                                    children: "Our goal is not to replace doctors, but to empower them with early predictions and intelligent insights."
+                                    className: "text-gray-600 text-lg mb-6",
+                                    children: "At the same time, we strongly believe that medical decisions should always remain in the hands of qualified doctors."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 260,
+                                    lineNumber: 557,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid sm:grid-cols-2 gap-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "p-6 bg-white rounded-xl shadow",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                    className: "font-semibold mb-2",
+                                                    children: "For Patients"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 564,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-600",
+                                                    children: "Clear reports, early alerts, peace of mind."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 565,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 563,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "p-6 bg-white rounded-xl shadow",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                    className: "font-semibold mb-2",
+                                                    children: "For Doctors"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 571,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm text-gray-600",
+                                                    children: "Decision support, not replacement."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 572,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 570,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 562,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 251,
+                            lineNumber: 547,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/about/page.js",
+                    lineNumber: 530,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/about/page.js",
+                lineNumber: 529,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "py-28 bg-white",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-6xl mx-auto px-6 text-center",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-4xl font-bold mb-12",
+                            children: "Our Core Values"
+                        }, void 0, false, {
+                            fileName: "[project]/app/about/page.js",
+                            lineNumber: 584,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                            variants: fadeUp,
-                            className: "bg-white/80 backdrop-blur rounded-2xl shadow-xl p-8",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col md:flex-row items-center gap-8",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid md:grid-cols-3 gap-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "p-8 bg-blue-50 rounded-2xl",
+                                    children: [
+                                        "🛡️ ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "font-semibold mt-4",
+                                            children: "Privacy & Trust"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 588,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-600 mt-2",
+                                            children: "Patient data is protected and respected."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 589,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 587,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "p-8 bg-blue-50 rounded-2xl",
+                                    children: [
+                                        "👨‍⚕️ ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "font-semibold mt-4",
+                                            children: "Doctor First"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 595,
+                                            columnNumber: 21
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-600 mt-2",
+                                            children: "AI assists, doctors decide."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 596,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 594,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "p-8 bg-blue-50 rounded-2xl",
+                                    children: [
+                                        "❤️ ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "font-semibold mt-4",
+                                            children: "Human-Centric Care"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 602,
+                                            columnNumber: 18
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-600 mt-2",
+                                            children: "Technology that feels supportive, not overwhelming."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 603,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/about/page.js",
+                                    lineNumber: 601,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/about/page.js",
+                            lineNumber: 586,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/about/page.js",
+                    lineNumber: 583,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/about/page.js",
+                lineNumber: 582,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "py-28 bg-blue-50",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-6xl mx-auto px-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-4xl font-bold text-center mb-12",
+                            children: "Datasets & Medical References"
+                        }, void 0, false, {
+                            fileName: "[project]/app/about/page.js",
+                            lineNumber: 626,
+                            columnNumber: 5
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "overflow-x-auto bg-white rounded-2xl shadow",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                className: "w-full text-sm",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
-                                        animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$about$2f$Book__with__bookmark$2e$json__$28$json$29$__["default"],
-                                        className: "w-64 h-64 md:w-80 md:h-80"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                        className: "bg-blue-100 text-left",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4",
+                                                    children: "Dataset / Source"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 634,
+                                                    columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4",
+                                                    children: "Health Focus"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 635,
+                                                    columnNumber: 13
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                    className: "p-4",
+                                                    children: "Usage in Doc.AI"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/about/page.js",
+                                                    lineNumber: 636,
+                                                    columnNumber: 13
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/about/page.js",
+                                            lineNumber: 633,
+                                            columnNumber: 11
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.js",
-                                        lineNumber: 273,
-                                        columnNumber: 3
+                                        lineNumber: 632,
+                                        columnNumber: 9
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "space-y-4 text-gray-700 text-sm",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center gap-2",
-                                                children: "✔ Early disease prediction"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-t",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "PIMA Indians Diabetes"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 641,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Diabetes Prediction"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 642,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Risk pattern inspiration"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 643,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 280,
-                                                columnNumber: 5
+                                                lineNumber: 640,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center gap-2",
-                                                children: "✔ Preventive & personalized care"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-t",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "UCI Heart Disease"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 646,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Cardiac Risk"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 647,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Early warning indicators"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 648,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 281,
-                                                columnNumber: 5
+                                                lineNumber: 645,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center gap-2",
-                                                children: "✔ Doctor-first AI approach"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-t",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Blood Test Reference Ranges"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 651,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Lab Interpretation"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 652,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Normal vs abnormal analysis"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 653,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 282,
-                                                columnNumber: 5
+                                                lineNumber: 650,
+                                                columnNumber: 11
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center gap-2",
-                                                children: "✔ Secure medical data handling"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                className: "border-t",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Synthetic EHR Samples"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 656,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Patient History"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 657,
+                                                        columnNumber: 13
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                        className: "p-4",
+                                                        children: "Trend & timeline tracking"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/about/page.js",
+                                                        lineNumber: 658,
+                                                        columnNumber: 13
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 283,
-                                                columnNumber: 5
+                                                lineNumber: 655,
+                                                columnNumber: 11
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/about/page.js",
-                                        lineNumber: 279,
-                                        columnNumber: 3
+                                        lineNumber: 639,
+                                        columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 270,
-                                columnNumber: 12
+                                lineNumber: 631,
+                                columnNumber: 7
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 266,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/about/page.js",
-                    lineNumber: 238,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 237,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-24 bg-white px-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    initial: "hidden",
-                    whileInView: "visible",
-                    viewport: {
-                        once: true
-                    },
-                    variants: stagger,
-                    className: "max-w-6xl mx-auto",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-bold text-center mb-14",
-                            children: "Why Choose Doc.AI?"
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 301,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid md:grid-cols-3 gap-10",
-                            children: [
-                                "Detects risks before symptoms worsen",
-                                "Assists doctors with clinical insights",
-                                "Reduces diagnostic delay"
-                            ].map((text, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    variants: fadeUp,
-                                    className: "p-8 rounded-xl shadow-lg text-center hover:scale-105 transition",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-medium text-gray-700",
-                                        children: text
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/about/page.js",
-                                        lineNumber: 316,
-                                        columnNumber: 17
-                                    }, this)
-                                }, i, false, {
-                                    fileName: "[project]/app/about/page.js",
-                                    lineNumber: 311,
-                                    columnNumber: 15
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 305,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/about/page.js",
-                    lineNumber: 294,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 293,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-20 bg-gradient-to-r from-blue-600 to-green-500 text-white",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center",
-                    children: [
-                        [
-                            "95%",
-                            "Prediction Accuracy"
-                        ],
-                        [
-                            "10+",
-                            "Disease Models"
-                        ],
-                        [
-                            "24/7",
-                            "AI Monitoring"
-                        ],
-                        [
-                            "100%",
-                            "Data Privacy"
-                        ]
-                    ].map(([value, label], i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-4xl font-bold",
-                                    children: value
-                                }, void 0, false, {
-                                    fileName: "[project]/app/about/page.js",
-                                    lineNumber: 333,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm mt-2",
-                                    children: label
-                                }, void 0, false, {
-                                    fileName: "[project]/app/about/page.js",
-                                    lineNumber: 334,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, i, true, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 332,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/app/about/page.js",
-                    lineNumber: 325,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 324,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-24 px-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    initial: "hidden",
-                    whileInView: "visible",
-                    viewport: {
-                        once: true
-                    },
-                    variants: stagger,
-                    className: "max-w-7xl mx-auto",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-bold text-center mb-16",
-                            children: "How Doc.AI Works"
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 349,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid sm:grid-cols-2 lg:grid-cols-4 gap-8",
-                            children: [
-                                "Secure Data Collection",
-                                "AI Pattern Analysis",
-                                "Early Risk Prediction",
-                                "Doctor Decision Support"
-                            ].map((step, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    variants: fadeUp,
-                                    className: "bg-white/80 backdrop-blur p-6 rounded-xl shadow-md text-center",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "font-medium text-gray-700",
-                                        children: step
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/about/page.js",
-                                        lineNumber: 365,
-                                        columnNumber: 17
-                                    }, this)
-                                }, i, false, {
-                                    fileName: "[project]/app/about/page.js",
-                                    lineNumber: 360,
-                                    columnNumber: 15
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 353,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/about/page.js",
-                    lineNumber: 342,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 341,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-24 bg-gray-50 px-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-5xl mx-auto text-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-bold mb-6",
-                            children: "AI That Assists, Not Replaces"
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 375,
-                            columnNumber: 11
+                            lineNumber: 630,
+                            columnNumber: 5
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-600 leading-relaxed",
-                            children: "Doc.AI provides predictive insights and data-driven recommendations. Final diagnosis and treatment decisions are always made by qualified medical professionals."
+                            className: "text-center text-xs text-gray-500 mt-8",
+                            children: "All datasets referenced are public, anonymized, or synthetic. No real patient data is used without consent."
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 378,
-                            columnNumber: 11
+                            lineNumber: 664,
+                            columnNumber: 5
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 374,
-                    columnNumber: 9
+                    lineNumber: 625,
+                    columnNumber: 3
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 373,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                id: "ethics",
-                className: "py-24 px-6",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                    initial: "hidden",
-                    whileInView: "visible",
-                    viewport: {
-                        once: true
-                    },
-                    variants: fadeUp,
-                    transition: {
-                        duration: 0.7
-                    },
-                    className: "max-w-6xl mx-auto bg-gray-900 text-white rounded-3xl p-12 text-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-bold mb-4",
-                            children: "Ethical & Responsible AI"
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 396,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-gray-300 max-w-3xl mx-auto",
-                            children: "Built with transparency, fairness, and strict data privacy — Doc.AI follows responsible AI principles in healthcare."
-                        }, void 0, false, {
-                            fileName: "[project]/app/about/page.js",
-                            lineNumber: 399,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/about/page.js",
-                    lineNumber: 388,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 387,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "py-24 text-center px-6",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-bold mb-6",
-                        children: "Ready for Smarter Healthcare?"
-                    }, void 0, false, {
-                        fileName: "[project]/app/about/page.js",
-                        lineNumber: 408,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/contact",
-                        className: "inline-block bg-blue-600 text-white px-10 py-4 rounded-xl font-semibold hover:bg-blue-700 transition",
-                        children: "Contact Us"
-                    }, void 0, false, {
-                        fileName: "[project]/app/about/page.js",
-                        lineNumber: 411,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/about/page.js",
-                lineNumber: 407,
+                lineNumber: 624,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/about/page.js",
-        lineNumber: 201,
+        lineNumber: 426,
         columnNumber: 5
     }, this);
 }

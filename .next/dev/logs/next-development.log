@@ -1,2370 +1,976 @@
-[00:00:01.844] Server  LOG      ✓ Ready in 1233ms
-[00:00:11.157] Server  LOG      ○ Compiling / ...
-[00:00:15.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.118] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.008] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[00:00:26.787] Server  LOG      ✓ Compiled in 210ms
-[00:03:20.557] Server  LOG      ✓ Compiled in 236ms
-[00:04:38.862] Server  LOG      ✓ Compiled in 165ms
-[00:04:38.948] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[00:04:50.617] Server  LOG      ✓ Compiled in 46ms
-[00:04:50.738] Browser ERROR   ./app/about/page.js:49:16
-Parsing ecmascript source code failed
-  47 |         
-  48 |
-> 49 |           </h1>
-     |                ^
-> 50 |           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-     | ^^^^^^^^^^^
-  51 |             Doc.AI is an AI-powered healthcare platform designed to assist
-  52 |             doctors and patients with early disease prediction, preventive
-  53 |             care, and personalized medical insights.
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:04:53.085] Browser ERROR   ./app/about/page.js:49:16
-Parsing ecmascript source code failed
-  47 |         
-  48 |
-> 49 |           </h1>
-     |                ^
-> 50 |           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-     | ^^^^^^^^^^^
-  51 |             Doc.AI is an AI-powered healthcare platform designed to assist
-  52 |             doctors and patients with early disease prediction, preventive
-  53 |             care, and personalized medical insights.
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:04:54.234] Browser ERROR   ./app/about/page.js:49:16
-Parsing ecmascript source code failed
-  47 |         
-  48 |
-> 49 |           </h1>
-     |                ^
-> 50 |           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-     | ^^^^^^^^^^^
-  51 |             Doc.AI is an AI-powered healthcare platform designed to assist
-  52 |             doctors and patients with early disease prediction, preventive
-  53 |             care, and personalized medical insights.
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:04:55.865] Browser ERROR   ./app/about/page.js:49:16
-Parsing ecmascript source code failed
-  47 |         
-  48 |
-> 49 |           </h1>
-     |                ^
-> 50 |           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-     | ^^^^^^^^^^^
-  51 |             Doc.AI is an AI-powered healthcare platform designed to assist
-  52 |             doctors and patients with early disease prediction, preventive
-  53 |             care, and personalized medical insights.
-
-Expected '</', got 'jsx text (
-          )'
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:05:01.244] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:01.540] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\app_about_page_ece04420.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:05:01.542] Server  ERROR    ⨯ ReferenceError: Link is not defined
-[00:05:01.564] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[00:05:01.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:01.964] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[00:05:26.467] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:26.784] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\app_about_page_ece04420.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:05:26.788] Server  ERROR    ⨯ ReferenceError: Link is not defined
-[00:05:26.808] Server  LOG      ✓ Compiled in 152ms
-[00:05:27.089] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:27.249] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
-[00:05:31.615] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:31.831] Server  LOG      ✓ Compiled in 190ms
-[00:05:32.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:32.222] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:48.417] Server  LOG      ✓ Compiled in 80ms
-[00:06:51.075] Server  LOG      ✓ Compiled in 132ms
-[00:06:55.967] Server  LOG      ✓ Compiled in 136ms
-[00:18:49.530] Server  LOG      ✓ Compiled in 678ms
-[00:18:50.406] Server  LOG      ✓ Compiled in 307ms
-[00:18:50.960] Browser ERROR   ./app/about/page.js:8:15
-Parsing ecmascript source code failed
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={{ duration: 0.6 }}
-     |               ^
-   9 | };
-  10 |
-  11 | const stagger = {
-
-Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:18:55.067] Browser ERROR   ./app/about/page.js:8:15
-Parsing ecmascript source code failed
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={{ duration: 0.6 }}
-     |               ^
-   9 | };
-  10 |
-  11 | const stagger = {
-
-Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:18:55.957] Browser ERROR   ./app/about/page.js:8:15
-Parsing ecmascript source code failed
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={{ duration: 0.6 }
-     |               ^
-   9 | };
-  10 |
-  11 | const stagger = {
-
-Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:18:57.950] Browser ERROR   ./app/about/page.js:8:15
-Parsing ecmascript source code failed
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={{ duration: 0.6 }
-     |               ^
-   9 | };
-  10 |
-  11 | const stagger = {
-
-Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:19:01.543] Server  LOG      ✓ Compiled in 301ms
-[00:19:01.955] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Invalid shorthand property initializer. (8:12)
-
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={ duration: 0.6 }
-     |             ^
-   9 | };
-  10 |
-  11 | const stagger = {
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at JSXParserMixin.checkExpressionErrors (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:200461)]
-    [at JSXParserMixin.parseMaybeAssign (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:351354)]
-    [at C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:350260]
-    [at JSXParserMixin.allowInAnd (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:383926)]
-    [at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:350239)]
-    [at JSXParserMixin.parseVar (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:402967)]
-    [at JSXParserMixin.parseVarStatement (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:19:04.962] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Invalid shorthand property initializer. (8:12)
-
-   6 |   hidden: { opacity: 0, y: 40 },
-   7 |   visible: { opacity: 1, y: 0 },
->  8 |   transition={ duration: 0.6 }
-     |             ^
-   9 | };
-  10 |
-  11 | const stagger = {
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at JSXParserMixin.checkExpressionErrors (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:200461)]
-    [at JSXParserMixin.parseMaybeAssign (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:351354)]
-    [at C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:350260]
-    [at JSXParserMixin.allowInAnd (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:383926)]
-    [at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:350239)]
-    [at JSXParserMixin.parseVar (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:402967)]
-    [at JSXParserMixin.parseVarStatement (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:399366)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391398)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:19:06.073] Server  LOG      ✓ Compiled in 505ms
-[00:19:27.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:27.656] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:34.713] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:34.893] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:23:18.884] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.898] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_607e3ba6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.906] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.911] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.915] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.917] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.925] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.926] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.930] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about/page"
-[00:23:18.935] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.938] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_607e3ba6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.939] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.940] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.941] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.942] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.943] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.944] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:18.945] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about/page"
-[00:23:19.006] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.007] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_607e3ba6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.008] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.009] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.009] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.009] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.010] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.011] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.011] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about/page"
-[00:23:19.022] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.023] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_607e3ba6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.024] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.024] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.026] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.026] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.027] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.027] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:23:19.028] Server  ERROR    ⨯ Error: The default export is not a React Component in "/about/page"
-[00:23:20.687] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/about/page"
-[00:23:22.254] Server  LOG      ✓ Compiled in 305ms
-[00:23:58.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:58.355] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:53.154] Server  LOG      ✓ Compiled in 322ms
-[00:29:53.966] Browser ERROR   uncaughtError: ReferenceError: Lottie is not defined
-[00:30:27.016] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.023] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.029] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.033] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.199] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.202] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.206] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.209] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.214] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.217] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.221] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.228] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:30:27.280] Server  LOG      ✓ Compiled in 738ms
-[00:30:27.397] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:30:28.405] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:31:25.801] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.805] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.807] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.809] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.814] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.818] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.821] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.826] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.831] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.833] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.836] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.838] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:25.845] Server  LOG      ✓ Compiled in 178ms
-[00:31:25.956] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:31:28.097] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:31:30.142] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.143] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.146] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.148] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.151] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.156] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.158] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.161] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.165] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.167] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.171] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.174] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:31:30.183] Server  LOG      ✓ Compiled in 272ms
-[00:31:30.286] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:31:34.370] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:32:53.955] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:32:54.955] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './AI Robot.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./AI Robot.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:33:17.138] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.141] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.143] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.147] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.150] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.153] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.156] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.163] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.168] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.170] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.173] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.177] Server  ERROR    ⨯ ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:33:17.178] Server  LOG      ✓ Compiled in 150ms
-[00:33:17.982] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:33:20.953] Browser ERROR   ./app/about/page.js:185:1
-Module not found: Can't resolve './appaboutBook with bookmark.json'
-  183 | import { motion } from "framer-motion";
-  184 | import Lottie from "lottie-react";
-> 185 | import AI from "./app\about\Book with bookmark.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  186 | const fadeUp = {
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-[00:33:23.296] Server  LOG      ✓ Compiled in 331ms
-[00:33:23.884] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:33:24.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:33:24.955] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:34:47.143] Server  LOG      ✓ Compiled in 257ms
-[00:34:48.686] Server  LOG      ✓ Compiled in 198ms
-[00:34:54.630] Server  LOG      ✓ Compiled in 135ms
-[00:34:54.960] Browser ERROR   uncaughtError: ReferenceError: AiI is not defined
-[00:34:56.195] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:34:56.207] Server  LOG      ✓ Compiled in 211ms
-[00:34:57.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:34:57.955] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:08.105] Server  LOG      ✓ Compiled in 76ms
-[00:35:08.954] Browser ERROR   ./app/about/page.js:186:12
-Parsing ecmascript source code failed
-  184 | import Lottie from "lottie-react";
-  185 | const fadeUp = {
-> 186 |     import AI from "./Book with bookmark.json"
-      |            ^^
-  187 |   hidden: { opacity: 0, y: 40 },
-  188 |   visible: { opacity: 1, y: 0 }
-  189 | };
-
-Unexpected token `AI`. Expected ... , *,  (, [, :, , ?, = or an identifier
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:11.952] Browser ERROR   uncaughtError: ReferenceError: AII is not defined
-[00:35:17.991] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:35:18.307] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\app_about_6ce6eb01._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:18.309] Server  ERROR    ⨯ ReferenceError: AII is not defined
-[00:35:18.331] Server  LOG      ✓ Compiled in 362ms
-[00:35:18.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:18.957] Browser ERROR   uncaughtError: ReferenceError: AII is not defined
-[00:35:23.826] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:35:24.159] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\app_about_6ce6eb01._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:35:24.159] Server  ERROR    ⨯ ReferenceError: AII is not defined
-[00:35:24.175] Server  LOG      ✓ Compiled in 113ms
-[00:35:24.346] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:35:24.954] Browser ERROR   uncaughtError: ReferenceError: AII is not defined
-[00:35:27.436] Server  LOG      ✓ Compiled in 67ms
-[00:35:27.955] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
-
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:27.955] Browser ERROR   ./app/about/page.js:186:8
+[00:00:02.079] Server  LOG      ✓ Ready in 1394ms
+[00:00:10.112] Server  LOG      ○ Compiling / ...
+[00:00:15.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.283] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:17.317] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
+[00:00:18.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.429] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:20.462] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:20.462] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:36.746] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:00:36.746] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:00:36.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:37.179] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:37.179] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:37.179] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:37.179] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Login 1. useContext                 useContext
+2. useEffect                  useEffect
+3. undefined                  useContext
+
+[00:00:37.179] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login
+[00:00:37.658] Server  ERROR    ⨯ ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:29.957] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
 
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:29.957] Browser ERROR   ./app/about/page.js:186:8
+[00:00:37.796] Browser ERROR   ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:53.960] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
-
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:53.960] Browser ERROR   ./app/about/page.js:186:8
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:38.689] Browser ERROR   ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:55.953] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
-
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:35:55.953] Browser ERROR   ./app/about/page.js:186:8
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:38.794] Browser ERROR   ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Book with bookmark.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:36:09.596] Server  ERROR    ⨯ ./app/about/page.js:186:1
-Module not found: Can't resolve './C:Users
-    ayakOneDriveDesktopdoc.aiappaboutDoctor, Medical, Surgeon, Healthcare Animation.json'
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:36:09.599] Server  ERROR    ⨯ ./app/about/page.js:186:1
-Module not found: Can't resolve './C:Users
-    ayakOneDriveDesktopdoc.aiappaboutDoctor, Medical, Surgeon, Healthcare Animation.json'
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:36:09.603] Server  ERROR    ⨯ ./app/about/page.js:186:1
-Module not found: Can't resolve './C:Users
-    ayakOneDriveDesktopdoc.aiappaboutDoctor, Medical, Surgeon, Healthcare Animation.json'
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:36:09.606] Server  ERROR    ⨯ ./app/about/page.js:186:1
-Module not found: Can't resolve './C:Users
-    ayakOneDriveDesktopdoc.aiappaboutDoctor, Medical, Surgeon, Healthcare Animation.json'
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-
-
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:36:09.961] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
-
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:36:09.961] Browser ERROR   ./app/about/page.js:186:8
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:39.265] Server  ERROR    ⨯ ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:36:09.961] Browser ERROR   ./app/about/page.js:186:1
-Module not found: Can't resolve './C:Users
-    ayakOneDriveDesktopdoc.aiappaboutDoctor, Medical, Surgeon, Healthcare Animation.json'
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\Doctor, Medical, Surgeon, Healthcare Animation.json"
-      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
 
-https://nextjs.org/docs/messages/module-not-found
-[00:36:17.955] Browser ERROR   ./app/about/page.js
-Error evaluating Node.js code
-SyntaxError: C:\Users\nayak\OneDrive\Desktop\doc.ai\app\about\page.js: Identifier 'AI' has already been declared. (186:7)
-
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Doctor, Medical, Surgeon, Healthcare Animation.json"
-      |        ^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
-    [at constructor (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:137105)]
-    [at JSXParserMixin.raise (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:194164)]
-    [at ScopeHandler.checkRedeclarationInScope (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:163166)]
-    [at ScopeHandler.declareName (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:162529)]
-    [at JSXParserMixin.declareNameFromIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279226)]
-    [at JSXParserMixin.checkIdentifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:279152)]
-    [at JSXParserMixin.checkLVal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:278197)]
-    [at JSXParserMixin.finishImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422705)]
-    [at JSXParserMixin.parseImportSpecifierLocal (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:422638)]
-    [at JSXParserMixin.maybeParseDefaultImportSpecifier (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:424839)]
-    [at JSXParserMixin.parseImportSpecifiersAndAfter (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421936)]
-    [at JSXParserMixin.parseImport (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:421803)]
-    [at JSXParserMixin.parseStatementContent (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:391781)]
-    [at JSXParserMixin.parseStatementLike (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389494)]
-    [at JSXParserMixin.parseModuleItem (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:389055)]
-    [at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401400)]
-    [at JSXParserMixin.parseBlockBody (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:401223)]
-    [at JSXParserMixin.parseProgram (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386857)]
-    [at JSXParserMixin.parseTopLevel (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:386575)]
-    [at JSXParserMixin.parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:426834)]
-    [at parse (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:191:427092)]
-    [at parser (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:1:142018)]
-    [at <anonymous>]
-    [at normalizeFile (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\babel\bundle.js:13:13275)]
-    [at <anonymous>]
-    [at consumeIterator (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\util.js:13:38)]
-    [at transform (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\transform.js:89:44)]
-    [at async (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:108)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-    [at async nextBabelLoader (C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\build\babel\loader\index.js:36:63)]
-    at async DummySpan.traceAsyncFn (turbopack:///[turbopack-node]/transforms/webpack-loaders.ts:115:12) [C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\build\chunks\[root-of-the-server]__6e020478._.js:126:16]
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:36:17.955] Browser ERROR   ./app/about/page.js:186:8
+[00:00:39.293] Browser ERROR   ./app/service/page.js:3:10
 Ecmascript file had an error
-  184 | import Lottie from "lottie-react";
-  185 | import AI from "./Book with bookmark.json"
-> 186 | import AI from "./Doctor, Medical, Surgeon, Healthcare Animation.json"
-      |        ^^
-  187 | const fadeUp = {
-  188 |   hidden: { opacity: 0, y: 40 },
-  189 |   visible: { opacity: 1, y: 0 }
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-the name `AI` is defined multiple times
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:39.310] Server  ERROR    ⨯ ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:36:31.801] Server  LOG      ✓ Compiled in 2.3s
-[00:36:32.363] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:36:32.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:33.001] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:37:22.216] Server  LOG      ✓ Compiled in 184ms
-[00:37:37.161] Server  LOG      ✓ Compiled in 118ms
-[00:37:38.955] Server  LOG      ✓ Compiled in 168ms
-[00:37:46.154] Server  LOG      ✓ Compiled in 202ms
-[00:38:43.754] Server  LOG      ✓ Compiled in 156ms
-[00:38:57.623] Server  LOG      ✓ Compiled in 74ms
-[00:38:57.728] Browser ERROR   ./app/about/page.js:239:1
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:00:39.529] Browser ERROR   uncaughtError: Error: ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:00:39.746] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:39.746] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:01:29.812] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:01:31.362] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:36.027] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:37.948] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:39.164] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:41.411] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     const { data: session } = useSession()
+  6 |             if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:53.646] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:56.013] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:57.886] Server  ERROR    ⨯ ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:58.151] Browser ERROR   uncaughtError: Error: ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:58.312] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:58.313] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:59.000] Server  ERROR    ⨯ ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:59.200] Browser ERROR   uncaughtError: Error: ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:59.362] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:59.362] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:07.959] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:08.349] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:08.349] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           style={{padding-right:"16px",overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[00:03:08.349] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:08.349] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:03:08.349] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:08.349] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |     // const { data: session } = useSession()
+  6 |     //         if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:22.599] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   return (
+  6 |   <section className="bg-gray-50 py-16">
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:24.216] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   return (
+  6 |   <section className="bg-gray-50 py-16">
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:03:26.035] Browser ERROR   ./app/service/page.js:36:19
 Parsing ecmascript source code failed
-  237 |       <section id="about" className="py-24 px-6">
-  238 |         <motion.div
-> 239 | <section className="flex justify-center ">
-      | ^
-  240 |   <Lottie
-  241 |     animationData={AII}
-  242 |     className="w-72 h-72 md:w-80 md:h-80"
+  34 |         </div>
+  35 |        
+> 36 |       const { data: session } = useSession()
+     |                   ^
+  37 |             if (!session) {
+  38 |                const router = useRouter()
+  39 |                router.push('/login')
 
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
-
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:38:59.603] Browser ERROR   ./app/about/page.js:240:1
+Expected '</', got ':'
+[00:03:27.850] Browser ERROR   ./app/service/page.js:36:19
 Parsing ecmascript source code failed
-  238 |         <motion.div
-  239 |           initial="hidden"
-> 240 | <section className="flex justify-center ">
-      | ^
-  241 |   <Lottie
-  242 |     animationData={AII}
-  243 |     className="w-72 h-72 md:w-80 md:h-80"
+  34 |         </div>
+  35 |        
+> 36 |       const { data: session } = useSession()
+     |                   ^
+  37 |             if (!session) {
+  38 |                const router = useRouter()
+  39 |                router.push('/login')
 
-Expression expected
+Expected '</', got ':'
+[00:03:30.055] Server  LOG      ✓ Compiled in 74ms
+[00:03:33.484] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:03:33.484] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:03:38.266] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:38.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:03:38.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:03:38.448] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:38.448] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Login 1. useContext                 useContext
+2. useEffect                  useEffect
+3. undefined                  useContext
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:39:02.735] Browser ERROR   ./app/about/page.js:240:1
+[00:03:38.448] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login
+[00:06:04.150] Server  LOG      ✓ Compiled in 246ms
+[00:06:10.666] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.668] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.669] Server  ERROR   ReferenceError: location is not defined
+[00:06:10.672] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.673] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.674] Server  ERROR    ⨯ "uncaughtException:" ReferenceError: location is not defined
+[00:06:10.678] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.679] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:06:10.683] Server  ERROR    ⨯ "uncaughtException: " ReferenceError: location is not defined
+[00:06:10.947] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:11.199] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router profile profile
+[00:06:11.283] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:12.683] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login
+[00:07:04.464] Server  LOG      ✓ Compiled in 95ms
+[00:07:16.198] Server  LOG      ✓ Compiled in 161ms
+[00:07:24.767] Server  LOG      ✓ Compiled in 131ms
+[00:07:55.018] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/profile/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:07:55.036] Server  LOG      ✓ Compiled in 88ms
+[00:07:55.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:55.798] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:03.337] Browser ERROR   ./app/service/page.js:4:8
 Parsing ecmascript source code failed
-  238 |         <motion.div
-  239 |           initial="hidden"
-> 240 | <section className="flex justify-center ">
-      | ^
-  241 |   <Lottie
-  242 |     animationData={AII}
-  243 |     className="w-72 h-72 md:w-80 md:h-80"
+  2 |
+  3 | const service = () => {
+> 4 |   onst { data: session } = useSession()
+    |        ^
+  5 |   //     if (!session) {
+  6 |   //        const router = useRouter()
+  7 |   //        router.push('/login')
 
-Expression expected
+Expected ';', '}' or <eof>
+[00:08:04.991] Browser ERROR   ./app/service/page.js:4:8
+Parsing ecmascript source code failed
+  2 |
+  3 | const service = () => {
+> 4 |   onst { data: session } = useSession()
+    |        ^
+  5 |   //     if (!session) {
+  6 |   //        const router = useRouter()
+  7 |   //        router.push('/login')
 
-Import traces:
-  Client Component Browser:
-    ./app/about/page.js [Client Component Browser]
-    ./app/about/page.js [Server Component]
+Expected ';', '}' or <eof>
+[00:08:20.349] Browser ERROR   ./app/service/page.js:5:8
+Parsing ecmascript source code failed
+  3 | import { useRouter } from 'next/navigation'
+  4 | const service = () => {
+> 5 |   onst { data: session } = useSession()
+    |        ^
+  6 |   //     if (!session) {
+  7 |   //        const router = useRouter()
+  8 |   //        router.push('/login')
 
-  Client Component SSR:
-    ./app/about/page.js [Client Component SSR]
-    ./app/about/page.js [Server Component]
-[00:42:16.763] Server  LOG      ✓ Compiled in 286ms
-[00:42:18.838] Server  LOG      ✓ Compiled in 215ms
-[00:42:22.673] Server  LOG      ✓ Compiled in 164ms
+Expected ';', '}' or <eof>
+[00:08:22.379] Browser ERROR   ./app/service/page.js:5:8
+Parsing ecmascript source code failed
+  3 | import { useRouter } from 'next/navigation'
+  4 | const service = () => {
+> 5 |   onst { data: session } = useSession()
+    |        ^
+  6 |   //     if (!session) {
+  7 |   //        const router = useRouter()
+  8 |   //        router.push('/login')
+
+Expected ';', '}' or <eof>
+[00:08:25.035] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |   //     if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:26.810] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |   //     if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:29.981] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:32.016] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:43.167] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:44.958] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:48.366] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:50.099] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:51.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:52.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:52.184] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/profile" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           style={{padding-right:"16px",overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[00:08:52.184] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:52.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:08:52.184] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:08:52.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:15.120] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:17.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:17.867] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:18.184] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/profile" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           style={{padding-right:"16px",overflow-x:"hidden",overflow-y:"hidden"}}
+                          >
+                  ...
+
+[00:09:18.184] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:09:18.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:18.184] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:09:18.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:18.184] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:09:19.368] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:02.418] Server  LOG      ✓ Compiled in 77ms
+[00:11:02.517] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:05.139] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   const { data: session } = useSession()
+  6 |       if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:20.650] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   // const { data: session } = useSession()
+  6 |   //     if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:22.669] Browser ERROR   ./app/service/page.js:3:10
+Ecmascript file had an error
+  1 | import React from 'react'
+  2 | import { useSession, signIn, signOut } from "next-auth/react"
+> 3 | import { useRouter } from 'next/navigation'
+    |          ^^^^^^^^^
+  4 | const service = () => {
+  5 |   // const { data: session } = useSession()
+  6 |   //     if (!session) {
+
+You're importing a component that needs `useRouter`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:11:29.593] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/profile/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:29.825] Server  LOG      ✓ Compiled in 59ms
+[00:11:30.024] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.025] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.026] Server  ERROR   ReferenceError: location is not defined
+[00:11:30.028] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.028] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.029] Server  ERROR    ⨯ "uncaughtException:" ReferenceError: location is not defined
+[00:11:30.037] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.038] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\[root-of-the-server]__dc67592a._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:11:30.039] Server  ERROR    ⨯ "uncaughtException: " ReferenceError: location is not defined
+[00:11:30.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:30.448] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router profile profile
+[00:11:30.448] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:30.755] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login
