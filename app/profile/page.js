@@ -6,13 +6,13 @@ import Lottie from "lottie-react";
 import AI from "./AI Robot.json"
 const profile = () => {
    const { data: session } = useSession()
-      if (!session) {
+      if (!session) {  
          const router = useRouter()
          router.push('/login')
       }
   return (
   <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen flex items-center justify-center p-4">
-
+  
   {/* <!-- Profile Card --> */}
   <div className="bg-white shadow-2xl rounded-3xl max-w-5xl w-full overflow-hidden">
 
@@ -69,8 +69,8 @@ const profile = () => {
 
       {/* <!-- About --> */}
       <p className="mt-6 text-center text-gray-600 max-w-3xl mx-auto">
-       10+ years of expertise in endocrinology enhanced by AI-driven diagnostics.
-Dedicated to early disease prediction and personalized hormonal care
+      10+ years of expertise in endocrinology enhanced by AI-driven diagnostics.
+      Dedicated to early disease prediction and personalized hormonal care
       </p>
 
       {/* <!-- Stats --> */}

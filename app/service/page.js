@@ -1,12 +1,7 @@
 import React from 'react'
-// import { useSession, signIn, signOut } from "next-auth/react"
-// import { useRouter } from 'next/navigation'
+
 const service = () => {
-  // const { data: session } = useSession()
-  //     if (!session) {
-  //        const router = useRouter()
-  //        router.push('/login')
-  //     }
+  
   return (
   <section className="bg-gray-50 py-16">
   <div className="max-w-7xl mx-auto px-6">
