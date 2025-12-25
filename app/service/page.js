@@ -52,7 +52,7 @@ const service = () => {
             and health records.
           </p>
         </div>
-        <a href="/multi-disease" className="inline-block text-center bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 transition">
+        <a href="/" className="inline-block text-center bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 transition">
           Explore
         </a>
       </div>
@@ -86,7 +86,7 @@ const service = () => {
             health recommendations.
           </p>
         </div>
-        <a href="/maternal-care" className="inline-block text-center bg-pink-600 text-white py-2 rounded-lg font-medium hover:bg-pink-700 transition">
+        <a href="http://localhost:8502/?embed=true" className="inline-block text-center bg-pink-600 text-white py-2 rounded-lg font-medium hover:bg-pink-700 transition">
           View Care
         </a>
       </div>
