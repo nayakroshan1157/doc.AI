@@ -114,56 +114,6 @@ const service = ()=>{
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-green-600 text-4xl mb-4",
-                                            children: "🧬"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/service/page.js",
-                                            lineNumber: 46,
-                                            columnNumber: 11
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-semibold text-gray-800 mb-2",
-                                            children: "Multiple Disease Prediction"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/service/page.js",
-                                            lineNumber: 47,
-                                            columnNumber: 11
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600 text-sm mb-6",
-                                            children: "Predicts multiple diseases by analyzing symptoms and health records."
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/service/page.js",
-                                            lineNumber: 50,
-                                            columnNumber: 11
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/service/page.js",
-                                    lineNumber: 45,
-                                    columnNumber: 9
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/",
-                                    className: "inline-block text-center bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 transition",
-                                    children: "Explore"
-                                }, void 0, false, {
-                                    fileName: "[project]/app/service/page.js",
-                                    lineNumber: 55,
-                                    columnNumber: 9
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/service/page.js",
-                            lineNumber: 44,
-                            columnNumber: 7
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-red-600 text-4xl mb-4",
                                             children: "❤️"
                                         }, void 0, false, {
@@ -215,10 +165,60 @@ const service = ()=>{
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-pink-600 text-4xl mb-4",
-                                            children: "🤰"
+                                            children: "🎗️"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/service/page.js",
+                                            lineNumber: 79,
+                                            columnNumber: 5
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold text-gray-800 mb-2",
+                                            children: "Breast Cancer Analysis"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
                                             lineNumber: 80,
+                                            columnNumber: 5
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 text-sm mb-6",
+                                            children: "AI-powered breast cancer detection using tumor measurements and medical parameters."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/service/page.js",
+                                            lineNumber: 83,
+                                            columnNumber: 5
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/service/page.js",
+                                    lineNumber: 78,
+                                    columnNumber: 3
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/breast-cancer",
+                                    className: "inline-block text-center bg-pink-600 text-white py-2 rounded-lg font-medium hover:bg-pink-700 transition",
+                                    children: "Analyze"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/service/page.js",
+                                    lineNumber: 88,
+                                    columnNumber: 3
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/service/page.js",
+                            lineNumber: 77,
+                            columnNumber: 1
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-pink-600 text-4xl mb-4",
+                                            children: "🤰"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/service/page.js",
+                                            lineNumber: 99,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -226,7 +226,7 @@ const service = ()=>{
                                             children: "Maternal Health Care"
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 81,
+                                            lineNumber: 100,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -234,13 +234,13 @@ const service = ()=>{
                                             children: "AI-assisted maternal risk monitoring and prenatal health recommendations."
                                         }, void 0, false, {
                                             fileName: "[project]/app/service/page.js",
-                                            lineNumber: 84,
+                                            lineNumber: 103,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 79,
+                                    lineNumber: 98,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -249,13 +249,13 @@ const service = ()=>{
                                     children: "View Care"
                                 }, void 0, false, {
                                     fileName: "[project]/app/service/page.js",
-                                    lineNumber: 89,
+                                    lineNumber: 108,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/service/page.js",
-                            lineNumber: 78,
+                            lineNumber: 97,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -272,12 +272,12 @@ const service = ()=>{
                         children: "Book Doctor Consultation"
                     }, void 0, false, {
                         fileName: "[project]/app/service/page.js",
-                        lineNumber: 98,
+                        lineNumber: 117,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/service/page.js",
-                    lineNumber: 97,
+                    lineNumber: 116,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             ]

@@ -186,7 +186,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SessionWrapper
 ;
 ;
 const metadata = {
-    title: "Doc.AI",
+    title: "MEDIFLO",
     description: "AI-powered connsultation and early disease prediction for smarter healthcare"
 };
 function RootLayout({ children }) {

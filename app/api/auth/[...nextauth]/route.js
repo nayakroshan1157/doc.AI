@@ -1,6 +1,6 @@
 
-// // import AppleProvider from 'next-auth/providers/apple'
-// // import FacebookProvider from 'next-auth/providers/facebook'
+import AppleProvider from 'next-auth/providers/apple'
+import FacebookProvider from 'next-auth/providers/facebook'
 import GoogleProvider from 'next-auth/providers/google'
 import EmailProvider from 'next-auth/providers/email'
 
@@ -23,10 +23,10 @@ const authOptions = {
     //   clientId: process.env.FACEBOOK_ID,
     //   clientSecret: process.env.FACEBOOK_SECRET
     // }),
-    // GoogleProvider({
-    //   clientId: process.env.GOOGLE_ID,
-    //   clientSecret: process.env.GOOGLE_SECRET
-    // }),
+    GoogleProvider({
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET
+    }),
 
     // Passwordless / email sign in
     // EmailProvider({
@@ -39,5 +39,4 @@ const authOptions = {
 const handler = NextAuth(authOptions)
 
 export { handler as GET, handler as POST }
-
 

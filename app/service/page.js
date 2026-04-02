@@ -41,7 +41,7 @@ const service = () => {
       </div>
 
       {/* <!-- Multiple Disease Prediction --> */}
-      <div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition">
+      {/* <div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition">
         <div>
           <div className="text-green-600 text-4xl mb-4">🧬</div>
           <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -55,7 +55,7 @@ const service = () => {
         <a href="/" className="inline-block text-center bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 transition">
           Explore
         </a>
-      </div>
+      </div> */}
 
       {/* <!-- Heart Disease --> */}
       <div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition">
@@ -73,6 +73,25 @@ const service = () => {
           Analyze
         </a>
       </div>
+      {/* <!-- Breast Cancer --> */}
+<div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition">
+  <div>
+    <div className="text-pink-600 text-4xl mb-4">🎗️</div>
+    <h3 className="text-xl font-semibold text-gray-800 mb-2">
+      Breast Cancer Analysis
+    </h3>
+    <p className="text-gray-600 text-sm mb-6">
+      AI-powered breast cancer detection using tumor measurements 
+      and medical parameters.
+    </p>
+  </div>
+  <a 
+    href="/breast-cancer" 
+    className="inline-block text-center bg-pink-600 text-white py-2 rounded-lg font-medium hover:bg-pink-700 transition"
+  >
+    Analyze
+  </a>
+</div>
 
       {/* <!-- Maternal Health Care --> */}
       <div className="bg-white rounded-xl shadow-md p-6 flex flex-col justify-between hover:shadow-xl transition">

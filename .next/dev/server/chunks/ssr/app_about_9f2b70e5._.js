@@ -220,7 +220,7 @@ function AboutDocAI() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "inline-block mb-4 px-4 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full",
-                                    children: "About Doc.AI"
+                                    children: "About MEDIFLO"
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
                                     lineNumber: 437,
@@ -244,7 +244,7 @@ function AboutDocAI() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-600 text-lg mb-4",
-                                    children: "Doc.AI was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
+                                    children: "MEDIFLO was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
                                     lineNumber: 445,
@@ -301,7 +301,7 @@ function AboutDocAI() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl font-bold mb-6",
-                                children: "How Doc.AI Thinks"
+                                children: "How MEDIFLO Thinks"
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
                                 lineNumber: 492,
@@ -309,7 +309,7 @@ function AboutDocAI() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 text-lg max-w-3xl mx-auto mb-16",
-                                children: "Doc.AI follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
+                                children: "MEDIFLO follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
                                 lineNumber: 496,
@@ -446,7 +446,7 @@ function AboutDocAI() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-600 text-lg mb-4",
-                                    children: "Doc.AI is designed to support patients with early insights, simplified explanations, and continuous health awareness."
+                                    children: "MEDIFLO is designed to support patients with early insights, simplified explanations, and continuous health awareness."
                                 }, void 0, false, {
                                     fileName: "[project]/app/about/page.js",
                                     lineNumber: 552,

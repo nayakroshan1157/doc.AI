@@ -1,10 +1,68 @@
-[00:00:01.711] Server  LOG      ✓ Ready in 1236ms
-[00:00:08.500] Server  LOG      ○ Compiling / ...
-[00:00:13.968] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.288] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:17.348] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[00:00:17.804] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login
-[00:00:36.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:36.640] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:42.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:42.585] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:02.215] Server  LOG      ✓ Ready in 1596ms
+[00:00:07.337] Server  LOG      ○ Compiling / ...
+[00:00:13.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.105] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:17.038] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
+[00:00:29.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.395] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:22.210] Server  LOG      ○ Compiling /about ...
+[00:30:53.091] Server  LOG      ✓ Compiled in 1363ms
+[00:30:54.465] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.545] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_3bec4d31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.563] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.582] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.587] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.593] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.596] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.599] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.631] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:30:54.641] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.646] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_3bec4d31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.647] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.650] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.661] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.665] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.666] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.675] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.683] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:30:54.899] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.910] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_3bec4d31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.916] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.925] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.967] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.985] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:54.998] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.014] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.030] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:30:55.164] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.176] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\.next\dev\server\chunks\ssr\node_modules_next_dist_3bec4d31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.211] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.226] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.299] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.364] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.397] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.442] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:55.615] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:30:57.816] Server  LOG      ○ Compiling /_error ...
+[00:31:02.184] Server  LOG      ✓ Compiled in 7.4s
+[00:31:04.607] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[00:33:43.896] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:44.130] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:38:41.454] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:38:41.454] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[01:05:36.936] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[01:05:36.938] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[01:05:37.323] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:37.620] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[01:05:37.620] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[01:05:37.621] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:37.621] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Login 1. useContext                 useContext
+2. useEffect                  useEffect
+3. undefined                  useContext
+
+[01:05:37.621] Browser ERROR   Cannot update a component (`%s`) while rendering a different component (`%s`). To locate the bad setState() call inside `%s`, follow the stack trace as described in https://react.dev/link/setstate-in-render Router Login Login

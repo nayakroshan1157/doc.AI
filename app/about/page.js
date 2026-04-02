@@ -435,7 +435,7 @@ export default function AboutDocAI() {
         >
           <motion.div variants={fadeUp}>
             <span className="inline-block mb-4 px-4 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full">
-              About Doc.AI
+              About MEDIFLO
             </span>
 
             <h1 className="text-5xl font-extrabold leading-tight mb-6">
@@ -443,7 +443,7 @@ export default function AboutDocAI() {
             </h1>
 
             <p className="text-gray-600 text-lg mb-4">
-              Doc.AI was created to help patients understand their health
+              MEDIFLO was created to help patients understand their health
               better and support doctors with meaningful insights —
               without replacing human judgment.
             </p>
@@ -490,11 +490,11 @@ export default function AboutDocAI() {
    <section className="py-28 bg-white">
   <div className="max-w-6xl mx-auto px-6 text-center">
     <h2 className="text-4xl font-bold mb-6">
-      How Doc.AI Thinks
+      How MEDIFLO Thinks
     </h2>
 
     <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-16">
-      Doc.AI follows a structured, doctor-friendly intelligence pipeline
+      MEDIFLO follows a structured, doctor-friendly intelligence pipeline
       to analyze health data responsibly and meaningfully.
     </p>
 
@@ -550,7 +550,7 @@ export default function AboutDocAI() {
             </h2>
 
             <p className="text-gray-600 text-lg mb-4">
-              Doc.AI is designed to support patients with early insights,
+              MEDIFLO is designed to support patients with early insights,
               simplified explanations, and continuous health awareness.
             </p>
 
@@ -674,4 +674,3 @@ export default function AboutDocAI() {
     </main>
   );
 }
-

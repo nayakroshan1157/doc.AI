@@ -3,7 +3,7 @@ import React from "react";
 
 import Image from "next/image";
 import Lottie from "lottie-react";
-import AI from "./AI bot.json"
+import AI from "./profile/AI bot.json";
 export default function Home() {
   return (
     <div className=" text-slate-800">
@@ -14,22 +14,27 @@ export default function Home() {
             Intelligent Healthcare <span className="text-indigo-600">Powered by AI</span>
           </h1>
           <p className="mt-6 text-lg text-slate-600">
-            Doc.AI blends clinical expertise with data science to deliver ethical,
+            MEDIFLO blends clinical expertise with data science to deliver ethical,
             patient-first solutions for modern healthcare.
           </p>
           <div className="mt-8 flex gap-4">
+           <a href="#doctors">
             <button className="px-6 py-3 rounded-2xl bg-indigo-600 text-white shadow hover:bg-indigo-700">
               For Doctors
             </button>
+            </a> 
+            <a href="#patients">
             <button className="px-6 py-3 rounded-2xl border border-slate-300 hover:border-indigo-600">
               For Patients
             </button>
+            </a>
+              
           </div>
         </div>
         <div className="flex space-x-5 justify-between  px-2 md:px-15 lg:px-15 py-2 h-80 w-full rounded-3xl bg-slate-400 shadow-inner  items-center ">
           <div className="">
             <span className="text-indigo-600 font-semibold ">“Delivering reliable medical support anytime, anywhere using artificial intelligence.”</span>
-            <p className="space-x-2.5">    by:-Vikramaditya Dash</p> </div>
+            <p className="space-x-2.5">    by:-Sasanka Routray</p> </div>
             <div className="">
         <Lottie
           animationData={AI}

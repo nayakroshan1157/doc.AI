@@ -40,11 +40,32 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$profile$2f$AI__Robot$
 ;
 ;
 ;
+// const profile = () => {
+//    const { data: session } = useSession()
+//       if (!session) {  
+//          const router = useRouter()
+//          router.push('/login')
+//       }
 const profile = ()=>{
-    const { data: session } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"])();
-    if (!session) {
-        const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
-        router.push('/login');
+    const { data: session, status } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"])();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (status === "unauthenticated") {
+            router.push("/login");
+        }
+    }, [
+        status,
+        router
+    ]);
+    if (status === "loading") {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "min-h-screen flex items-center justify-center",
+            children: "Loading..."
+        }, void 0, false, {
+            fileName: "[project]/app/profile/page.js",
+            lineNumber: 25,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0));
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen flex items-center justify-center p-4",
@@ -62,12 +83,12 @@ const profile = ()=>{
                                 className: "w-36 h-36 rounded-full border-4 border-white shadow-lg"
                             }, void 0, false, {
                                 fileName: "[project]/app/profile/page.js",
-                                lineNumber: 24,
+                                lineNumber: 42,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 23,
+                            lineNumber: 41,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -78,7 +99,7 @@ const profile = ()=>{
                                     children: "🤖 AI Verified Doctor"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 33,
+                                    lineNumber: 51,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$es$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
@@ -86,19 +107,19 @@ const profile = ()=>{
                                     className: "w-100 h-100 md:w-80 md:h-80"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 36,
+                                    lineNumber: 54,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 32,
+                            lineNumber: 50,
                             columnNumber: 8
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.js",
-                    lineNumber: 20,
+                    lineNumber: 38,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -109,10 +130,10 @@ const profile = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     className: "text-3xl font-bold text-gray-800",
-                                    children: "Dr. Vikramaditya Dash"
+                                    children: "Dr. Sasanka Routray"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 48,
+                                    lineNumber: 66,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -120,7 +141,7 @@ const profile = ()=>{
                                     children: "Endocrinologist • MD • AI Health Specialist"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 51,
+                                    lineNumber: 69,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -132,13 +153,13 @@ const profile = ()=>{
                                             children: "(4.9 / 5 • 2.1k reviews)"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 58,
+                                            lineNumber: 76,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 56,
+                                    lineNumber: 74,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,18 +169,18 @@ const profile = ()=>{
                                         children: "● Available Now"
                                     }, void 0, false, {
                                         fileName: "[project]/app/profile/page.js",
-                                        lineNumber: 63,
+                                        lineNumber: 81,
                                         columnNumber: 11
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 62,
+                                    lineNumber: 80,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 47,
+                            lineNumber: 65,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -167,7 +188,7 @@ const profile = ()=>{
                             children: "10+ years of expertise in endocrinology enhanced by AI-driven diagnostics. Dedicated to early disease prediction and personalized hormonal care"
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 71,
+                            lineNumber: 89,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -181,7 +202,7 @@ const profile = ()=>{
                                             children: "10+"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 79,
+                                            lineNumber: 97,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -189,13 +210,13 @@ const profile = ()=>{
                                             children: "Years Experience"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 80,
+                                            lineNumber: 98,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 78,
+                                    lineNumber: 96,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -206,7 +227,7 @@ const profile = ()=>{
                                             children: "15k+"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 83,
+                                            lineNumber: 101,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -214,13 +235,13 @@ const profile = ()=>{
                                             children: "Patients Treated"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 84,
+                                            lineNumber: 102,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 82,
+                                    lineNumber: 100,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -231,7 +252,7 @@ const profile = ()=>{
                                             children: "92%"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 87,
+                                            lineNumber: 105,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -239,13 +260,13 @@ const profile = ()=>{
                                             children: "AI Accuracy"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 88,
+                                            lineNumber: 106,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 86,
+                                    lineNumber: 104,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -256,7 +277,7 @@ const profile = ()=>{
                                             children: "4.9★"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 91,
+                                            lineNumber: 109,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -264,19 +285,19 @@ const profile = ()=>{
                                             children: "Patient Rating"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 92,
+                                            lineNumber: 110,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 90,
+                                    lineNumber: 108,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 77,
+                            lineNumber: 95,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -290,7 +311,7 @@ const profile = ()=>{
                                             children: "👩‍⚕️ Profile Details"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 101,
+                                            lineNumber: 119,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -301,45 +322,45 @@ const profile = ()=>{
                                                         children: "Specialization:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/profile/page.js",
-                                                        lineNumber: 105,
+                                                        lineNumber: 123,
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "Diabetes & Endocrine Disorder Management"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/profile/page.js",
-                                                        lineNumber: 106,
+                                                        lineNumber: 124,
                                                         columnNumber: 13
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "AI-Driven Disease Prediction"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/profile/page.js",
-                                                        lineNumber: 107,
+                                                        lineNumber: 125,
                                                         columnNumber: 13
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                         children: "Preventive Healthcare Analytics"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/profile/page.js",
-                                                        lineNumber: 108,
+                                                        lineNumber: 126,
                                                         columnNumber: 13
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/profile/page.js",
-                                                lineNumber: 105,
+                                                lineNumber: 123,
                                                 columnNumber: 13
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 104,
+                                            lineNumber: 122,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 100,
+                                    lineNumber: 118,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -350,7 +371,7 @@ const profile = ()=>{
                                             children: "💬 Consultation Info"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 115,
+                                            lineNumber: 133,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -362,14 +383,14 @@ const profile = ()=>{
                                                             children: "Mode:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/profile/page.js",
-                                                            lineNumber: 120,
+                                                            lineNumber: 138,
                                                             columnNumber: 17
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         " Video • Chat • AI Report"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/profile/page.js",
-                                                    lineNumber: 120,
+                                                    lineNumber: 138,
                                                     columnNumber: 13
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -378,14 +399,14 @@ const profile = ()=>{
                                                             children: "Timings:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/profile/page.js",
-                                                            lineNumber: 121,
+                                                            lineNumber: 139,
                                                             columnNumber: 17
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         "24 / 7"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/profile/page.js",
-                                                    lineNumber: 121,
+                                                    lineNumber: 139,
                                                     columnNumber: 13
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -394,32 +415,32 @@ const profile = ()=>{
                                                             children: "AI Health Score:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/profile/page.js",
-                                                            lineNumber: 122,
+                                                            lineNumber: 140,
                                                             columnNumber: 17
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         " 92 / 100"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/profile/page.js",
-                                                    lineNumber: 122,
+                                                    lineNumber: 140,
                                                     columnNumber: 13
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.js",
-                                            lineNumber: 118,
+                                            lineNumber: 136,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 114,
+                                    lineNumber: 132,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 97,
+                            lineNumber: 115,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -430,7 +451,7 @@ const profile = ()=>{
                                     children: "Book Appointment"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 129,
+                                    lineNumber: 147,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -438,34 +459,88 @@ const profile = ()=>{
                                     children: "View AI Health Report"
                                 }, void 0, false, {
                                     fileName: "[project]/app/profile/page.js",
-                                    lineNumber: 132,
+                                    lineNumber: 150,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/profile/page.js",
-                            lineNumber: 128,
+                            lineNumber: 146,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.js",
-                    lineNumber: 44,
+                    lineNumber: 62,
                     columnNumber: 5
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/profile/page.js",
-            lineNumber: 17,
+            lineNumber: 35,
             columnNumber: 3
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/profile/page.js",
-        lineNumber: 14,
+        lineNumber: 32,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 };
-const __TURBOPACK__default__export__ = profile;
+const __TURBOPACK__default__export__ = profile // "use client"
+ // import React, { useEffect } from "react"
+ // import { useSession } from "next-auth/react"
+ // import { useRouter } from "next/navigation"
+ // import Lottie from "lottie-react"
+ // import AI from "./AI Robot.json"
+ // const Profile = () => {
+ //   const { data: session, status } = useSession()
+ //   const router = useRouter()
+ //   useEffect(() => {
+ //     if (status === "unauthenticated") {
+ //       router.push("/login")
+ //     }
+ //   }, [status, router])
+ //   if (status === "loading") {
+ //     return (
+ //       <div className="min-h-screen flex items-center justify-center">
+ //         Loading...
+ //       </div>
+ //     )
+ //   }
+ //   return (
+ //     <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen flex items-center justify-center p-4">
+ //       {/* Profile Card */}
+ //       <div className="bg-white shadow-2xl rounded-3xl max-w-5xl w-full overflow-hidden">
+ //         {/* Header */}
+ //         <div className="relative bg-gradient-to-r from-blue-600 to-indigo-600 h-48">
+ //           {/* Profile Image */}
+ //           <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2">
+ //             <img
+ //               src="https://via.placeholder.com/150"
+ //               alt="Profile"
+ //               className="w-36 h-36 rounded-full border-4 border-white shadow-lg"
+ //             />
+ //           </div>
+ //           {/* AI Badge */}
+ //           <div className="absolute top-6 right-6 px-4 py-1">
+ //             <span className="text-sm font-semibold rounded-full bg-white/90 text-blue-600">
+ //               🤖 AI Verified Doctor
+ //             </span>
+ //             <Lottie animationData={AI} className="w-24 h-24" />
+ //           </div>
+ //         </div>
+ //         {/* Content */}
+ //         <div className="pt-20 px-8 pb-8">
+ //           <h1 className="text-3xl font-bold text-center text-gray-800">
+ //             Dr. Sasanka Routray
+ //           </h1>
+ //         </div>
+ //       </div>
+ //     </div>
+ //   )
+ // }
+ // export default Profile
+;
 }),
 ];
 

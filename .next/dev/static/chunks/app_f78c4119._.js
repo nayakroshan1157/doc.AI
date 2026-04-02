@@ -23,12 +23,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$AI__bot$2e$json__$28$
 ;
 ;
 function Home() {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(16);
-    if ($[0] !== "cc4d48767abcde8492a9591992fc7aa45cec04c0314617d8e817c0c5ad6538ea") {
-        for(let $i = 0; $i < 16; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(17);
+    if ($[0] !== "4c1c839a4ddd059bfea71e70ba53e2e6e8f0c0ce5d2919c6fd1d7711181f8d0e") {
+        for(let $i = 0; $i < 17; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "cc4d48767abcde8492a9591992fc7aa45cec04c0314617d8e817c0c5ad6538ea";
+        $[0] = "4c1c839a4ddd059bfea71e70ba53e2e6e8f0c0ce5d2919c6fd1d7711181f8d0e";
     }
     let t0;
     let t1;
@@ -67,37 +67,17 @@ function Home() {
     }
     let t2;
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            children: [
-                t0,
-                t1,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-8 flex gap-4",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "px-6 py-3 rounded-2xl bg-indigo-600 text-white shadow hover:bg-indigo-700",
-                            children: "For Doctors"
-                        }, void 0, false, {
-                            fileName: "[project]/app/page.js",
-                            lineNumber: 29,
-                            columnNumber: 56
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "px-6 py-3 rounded-2xl border border-slate-300 hover:border-indigo-600",
-                            children: "For Patients"
-                        }, void 0, false, {
-                            fileName: "[project]/app/page.js",
-                            lineNumber: 29,
-                            columnNumber: 170
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 29,
-                    columnNumber: 23
-                }, this)
-            ]
-        }, void 0, true, {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "#doctors",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: "px-6 py-3 rounded-2xl bg-indigo-600 text-white shadow hover:bg-indigo-700",
+                children: "For Doctors"
+            }, void 0, false, {
+                fileName: "[project]/app/page.js",
+                lineNumber: 29,
+                columnNumber: 29
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/app/page.js",
             lineNumber: 29,
             columnNumber: 10
@@ -109,25 +89,34 @@ function Home() {
     let t3;
     if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "text-indigo-600 font-semibold ",
-                    children: "“Delivering reliable medical support anytime, anywhere using artificial intelligence.”"
-                }, void 0, false, {
+                t0,
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mt-8 flex gap-4",
+                    children: [
+                        t2,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "#patients",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "px-6 py-3 rounded-2xl border border-slate-300 hover:border-indigo-600",
+                                children: "For Patients"
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.js",
+                                lineNumber: 36,
+                                columnNumber: 80
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.js",
+                            lineNumber: 36,
+                            columnNumber: 60
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 36,
-                    columnNumber: 28
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "space-x-2.5",
-                    children: "    by:-Vikramaditya Dash"
-                }, void 0, false, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 36,
-                    columnNumber: 170
-                }, this),
-                " "
+                    columnNumber: 23
+                }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/page.js",
@@ -140,35 +129,26 @@ function Home() {
     }
     let t4;
     if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center",
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "",
             children: [
-                t2,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex space-x-5 justify-between  px-2 md:px-15 lg:px-15 py-2 h-80 w-full rounded-3xl bg-slate-400 shadow-inner  items-center ",
-                    children: [
-                        t3,
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$umd$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$AI__bot$2e$json__$28$json$29$__["default"],
-                                className: "w-100 h-100 md:w-56 md:h-56"
-                            }, void 0, false, {
-                                fileName: "[project]/app/page.js",
-                                lineNumber: 43,
-                                columnNumber: 268
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/app/page.js",
-                            lineNumber: 43,
-                            columnNumber: 250
-                        }, this)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "text-indigo-600 font-semibold ",
+                    children: "“Delivering reliable medical support anytime, anywhere using artificial intelligence.”"
+                }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 43,
-                    columnNumber: 104
-                }, this)
+                    columnNumber: 28
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "space-x-2.5",
+                    children: "    by:-Sasanka Routray"
+                }, void 0, false, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 43,
+                    columnNumber: 170
+                }, this),
+                " "
             ]
         }, void 0, true, {
             fileName: "[project]/app/page.js",
@@ -180,59 +160,69 @@ function Home() {
         t4 = $[5];
     }
     let t5;
-    let t6;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-            className: "text-3xl font-bold text-center",
-            children: "For Doctors"
-        }, void 0, false, {
-            fileName: "[project]/app/page.js",
-            lineNumber: 51,
-            columnNumber: 10
-        }, this);
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-center text-slate-600 mt-4 max-w-2xl mx-auto",
-            children: "Tools designed to support clinical decisions, reduce workload, and improve patient outcomes."
-        }, void 0, false, {
-            fileName: "[project]/app/page.js",
-            lineNumber: 52,
-            columnNumber: 10
-        }, this);
-        $[6] = t5;
-        $[7] = t6;
-    } else {
-        t5 = $[6];
-        t6 = $[7];
-    }
-    let t7;
-    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-white p-6 rounded-2xl shadow",
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "font-semibold text-lg",
-                    children: "AI Diagnosis Support"
-                }, void 0, false, {
+                t3,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex space-x-5 justify-between  px-2 md:px-15 lg:px-15 py-2 h-80 w-full rounded-3xl bg-slate-400 shadow-inner  items-center ",
+                    children: [
+                        t4,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lottie$2d$react$2f$build$2f$index$2e$umd$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                animationData: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$AI__bot$2e$json__$28$json$29$__["default"],
+                                className: "w-100 h-100 md:w-56 md:h-56"
+                            }, void 0, false, {
+                                fileName: "[project]/app/page.js",
+                                lineNumber: 50,
+                                columnNumber: 268
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/page.js",
+                            lineNumber: 50,
+                            columnNumber: 250
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/app/page.js",
-                    lineNumber: 61,
-                    columnNumber: 59
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-2 text-sm text-slate-600",
-                    children: "Data-driven insights to assist in faster and accurate diagnosis."
-                }, void 0, false, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 61,
-                    columnNumber: 122
+                    lineNumber: 50,
+                    columnNumber: 104
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/page.js",
-            lineNumber: 61,
+            lineNumber: 50,
             columnNumber: 10
         }, this);
+        $[6] = t5;
+    } else {
+        t5 = $[6];
+    }
+    let t6;
+    let t7;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+            className: "text-3xl font-bold text-center",
+            children: "For Doctors"
+        }, void 0, false, {
+            fileName: "[project]/app/page.js",
+            lineNumber: 58,
+            columnNumber: 10
+        }, this);
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "text-center text-slate-600 mt-4 max-w-2xl mx-auto",
+            children: "Tools designed to support clinical decisions, reduce workload, and improve patient outcomes."
+        }, void 0, false, {
+            fileName: "[project]/app/page.js",
+            lineNumber: 59,
+            columnNumber: 10
+        }, this);
+        $[7] = t6;
         $[8] = t7;
     } else {
+        t6 = $[7];
         t7 = $[8];
     }
     let t8;
@@ -242,7 +232,7 @@ function Home() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                     className: "font-semibold text-lg",
-                    children: "Clinical Reports Analysis"
+                    children: "AI Diagnosis Support"
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 68,
@@ -250,11 +240,11 @@ function Home() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "mt-2 text-sm text-slate-600",
-                    children: "Smart interpretation of lab reports and patient history."
+                    children: "Data-driven insights to assist in faster and accurate diagnosis."
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 68,
-                    columnNumber: 127
+                    columnNumber: 122
                 }, this)
             ]
         }, void 0, true, {
@@ -268,57 +258,27 @@ function Home() {
     }
     let t9;
     if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            id: "doctors",
-            className: "bg-slate-50 py-20",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-7xl mx-auto px-6",
-                children: [
-                    t5,
-                    t6,
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-12 grid md:grid-cols-3 gap-8",
-                        children: [
-                            t7,
-                            t8,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white p-6 rounded-2xl shadow",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "font-semibold text-lg",
-                                        children: "Workflow Automation"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.js",
-                                        lineNumber: 75,
-                                        columnNumber: 216
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-2 text-sm text-slate-600",
-                                        children: "Reduce paperwork and focus more on patient care."
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/page.js",
-                                        lineNumber: 75,
-                                        columnNumber: 278
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/page.js",
-                                lineNumber: 75,
-                                columnNumber: 167
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/page.js",
-                        lineNumber: 75,
-                        columnNumber: 110
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/page.js",
-                lineNumber: 75,
-                columnNumber: 62
-            }, this)
-        }, void 0, false, {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "bg-white p-6 rounded-2xl shadow",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "font-semibold text-lg",
+                    children: "Clinical Reports Analysis"
+                }, void 0, false, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 75,
+                    columnNumber: 59
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "mt-2 text-sm text-slate-600",
+                    children: "Smart interpretation of lab reports and patient history."
+                }, void 0, false, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 75,
+                    columnNumber: 127
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/app/page.js",
             lineNumber: 75,
             columnNumber: 10
@@ -328,59 +288,89 @@ function Home() {
         t9 = $[10];
     }
     let t10;
-    let t11;
     if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            id: "doctors",
+            className: "bg-slate-50 py-20",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto px-6",
+                children: [
+                    t6,
+                    t7,
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-12 grid md:grid-cols-3 gap-8",
+                        children: [
+                            t8,
+                            t9,
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "bg-white p-6 rounded-2xl shadow",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-semibold text-lg",
+                                        children: "Workflow Automation"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.js",
+                                        lineNumber: 82,
+                                        columnNumber: 217
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "mt-2 text-sm text-slate-600",
+                                        children: "Reduce paperwork and focus more on patient care."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/page.js",
+                                        lineNumber: 82,
+                                        columnNumber: 279
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.js",
+                                lineNumber: 82,
+                                columnNumber: 168
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.js",
+                        lineNumber: 82,
+                        columnNumber: 111
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/page.js",
+                lineNumber: 82,
+                columnNumber: 63
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/app/page.js",
+            lineNumber: 82,
+            columnNumber: 11
+        }, this);
+        $[11] = t10;
+    } else {
+        t10 = $[11];
+    }
+    let t11;
+    let t12;
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-3xl font-bold text-center",
             children: "For Patients"
         }, void 0, false, {
             fileName: "[project]/app/page.js",
-            lineNumber: 83,
+            lineNumber: 90,
             columnNumber: 11
         }, this);
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-center text-slate-600 mt-4 max-w-2xl mx-auto",
             children: "Simple, secure, and intelligent tools to help patients understand and manage their health."
         }, void 0, false, {
             fileName: "[project]/app/page.js",
-            lineNumber: 84,
+            lineNumber: 91,
             columnNumber: 11
         }, this);
-        $[11] = t10;
         $[12] = t11;
-    } else {
-        t10 = $[11];
-        t11 = $[12];
-    }
-    let t12;
-    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-white p-6 rounded-2xl shadow",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "font-semibold text-lg",
-                    children: "Health Report Insights"
-                }, void 0, false, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 93,
-                    columnNumber: 60
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-2 text-sm text-slate-600",
-                    children: "Easy-to-understand explanations of medical reports."
-                }, void 0, false, {
-                    fileName: "[project]/app/page.js",
-                    lineNumber: 93,
-                    columnNumber: 125
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/page.js",
-            lineNumber: 93,
-            columnNumber: 11
-        }, this);
         $[13] = t12;
     } else {
+        t11 = $[12];
         t12 = $[13];
     }
     let t13;
@@ -390,7 +380,7 @@ function Home() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                     className: "font-semibold text-lg",
-                    children: "Early Risk Prediction"
+                    children: "Health Report Insights"
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 100,
@@ -398,11 +388,11 @@ function Home() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "mt-2 text-sm text-slate-600",
-                    children: "AI-driven alerts for potential future health risks."
+                    children: "Easy-to-understand explanations of medical reports."
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 100,
-                    columnNumber: 124
+                    columnNumber: 125
                 }, this)
             ]
         }, void 0, true, {
@@ -417,64 +407,23 @@ function Home() {
     let t14;
     if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: " text-slate-800",
+            className: "bg-white p-6 rounded-2xl shadow",
             children: [
-                t4,
-                t9,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                    id: "patients",
-                    className: "py-20",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-7xl mx-auto px-6",
-                        children: [
-                            t10,
-                            t11,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-12 grid md:grid-cols-3 gap-8",
-                                children: [
-                                    t12,
-                                    t13,
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-white p-6 rounded-2xl shadow",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "font-semibold text-lg",
-                                                children: "Doctor Consultation"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.js",
-                                                lineNumber: 107,
-                                                columnNumber: 251
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "mt-2 text-sm text-slate-600",
-                                                children: "Seamless connection with trusted healthcare professionals."
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/page.js",
-                                                lineNumber: 107,
-                                                columnNumber: 313
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/page.js",
-                                        lineNumber: 107,
-                                        columnNumber: 202
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/page.js",
-                                lineNumber: 107,
-                                columnNumber: 143
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/page.js",
-                        lineNumber: 107,
-                        columnNumber: 93
-                    }, this)
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "font-semibold text-lg",
+                    children: "Early Risk Prediction"
                 }, void 0, false, {
                     fileName: "[project]/app/page.js",
                     lineNumber: 107,
-                    columnNumber: 52
+                    columnNumber: 60
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "mt-2 text-sm text-slate-600",
+                    children: "AI-driven alerts for potential future health risks."
+                }, void 0, false, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 107,
+                    columnNumber: 124
                 }, this)
             ]
         }, void 0, true, {
@@ -486,7 +435,79 @@ function Home() {
     } else {
         t14 = $[15];
     }
-    return t14;
+    let t15;
+    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: " text-slate-800",
+            children: [
+                t5,
+                t10,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    id: "patients",
+                    className: "py-20",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "max-w-7xl mx-auto px-6",
+                        children: [
+                            t11,
+                            t12,
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-12 grid md:grid-cols-3 gap-8",
+                                children: [
+                                    t13,
+                                    t14,
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-white p-6 rounded-2xl shadow",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-semibold text-lg",
+                                                children: "Doctor Consultation"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.js",
+                                                lineNumber: 114,
+                                                columnNumber: 252
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "mt-2 text-sm text-slate-600",
+                                                children: "Seamless connection with trusted healthcare professionals."
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/page.js",
+                                                lineNumber: 114,
+                                                columnNumber: 314
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/page.js",
+                                        lineNumber: 114,
+                                        columnNumber: 203
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/page.js",
+                                lineNumber: 114,
+                                columnNumber: 144
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/page.js",
+                        lineNumber: 114,
+                        columnNumber: 94
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/page.js",
+                    lineNumber: 114,
+                    columnNumber: 53
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/page.js",
+            lineNumber: 114,
+            columnNumber: 11
+        }, this);
+        $[16] = t15;
+    } else {
+        t15 = $[16];
+    }
+    return t15;
 }
 _c = Home;
 var _c;

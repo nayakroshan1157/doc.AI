@@ -23,11 +23,11 @@ var _s = __turbopack_context__.k.signature();
 const Navbar = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(23);
-    if ($[0] !== "60a24547f1211c0df80e59f7c8401a3b02bf19a075ec811813a29eeee528038d") {
+    if ($[0] !== "43af3ccb5d2e594e067721a724938cae2d957c85ff5a2d54ab8d478f697b993b") {
         for(let $i = 0; $i < 23; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "60a24547f1211c0df80e59f7c8401a3b02bf19a075ec811813a29eeee528038d";
+        $[0] = "43af3ccb5d2e594e067721a724938cae2d957c85ff5a2d54ab8d478f697b993b";
     }
     const { data: session } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSession"])();
     const [showdropdown, setShowdropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -57,10 +57,10 @@ const Navbar = ()=>{
                 className: "text-white hover:text-blue-300 transition duration-300",
                 children: [
                     t0,
-                    "DOC.",
+                    "MEDI",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-blue-400",
-                        children: "AI"
+                        children: "FLO"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.js",
                         lineNumber: 29,

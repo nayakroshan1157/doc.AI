@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Doc.AI",
+  title: "MEDIFLO",
   description: "AI-powered connsultation and early disease prediction for smarter healthcare",
 };
 

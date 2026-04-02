@@ -28,7 +28,7 @@ const Navbar = () => {
             className="rounded-full"
           />
 
-          DOC.<span className="text-blue-400">AI</span>
+          MEDI<span className="text-blue-400">FLO</span>
         </Link>
       </div>
 

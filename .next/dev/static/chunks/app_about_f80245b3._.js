@@ -207,17 +207,17 @@ const stagger = {
 };
 function AboutDocAI() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(24);
-    if ($[0] !== "9407c9a0973e670eda30210bfab1d7d66c9355ddfd3d7463fc0c8032607d39ee") {
+    if ($[0] !== "83e5327b31c29ecd99c92b92f40a6fa1919a4969e3caa2e0ae95d6428762129e") {
         for(let $i = 0; $i < 24; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9407c9a0973e670eda30210bfab1d7d66c9355ddfd3d7463fc0c8032607d39ee";
+        $[0] = "83e5327b31c29ecd99c92b92f40a6fa1919a4969e3caa2e0ae95d6428762129e";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
             className: "inline-block mb-4 px-4 py-1 text-sm font-medium text-blue-700 bg-blue-100 rounded-full",
-            children: "About Doc.AI"
+            children: "About MEDIFLO"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
             lineNumber: 437,
@@ -251,7 +251,7 @@ function AboutDocAI() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-600 text-lg mb-4",
-                    children: "Doc.AI was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
+                    children: "MEDIFLO was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
                     lineNumber: 444,
@@ -263,7 +263,7 @@ function AboutDocAI() {
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
                     lineNumber: 444,
-                    columnNumber: 355
+                    columnNumber: 356
                 }, this)
             ]
         }, void 0, true, {
@@ -323,7 +323,7 @@ function AboutDocAI() {
     if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-4xl font-bold mb-6",
-            children: "How Doc.AI Thinks"
+            children: "How MEDIFLO Thinks"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
             lineNumber: 459,
@@ -331,7 +331,7 @@ function AboutDocAI() {
         }, this);
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-600 text-lg max-w-3xl mx-auto mb-16",
-            children: "Doc.AI follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
+            children: "MEDIFLO follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
             lineNumber: 460,
@@ -462,7 +462,7 @@ function AboutDocAI() {
         }, this);
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-600 text-lg mb-4",
-            children: "Doc.AI is designed to support patients with early insights, simplified explanations, and continuous health awareness."
+            children: "MEDIFLO is designed to support patients with early insights, simplified explanations, and continuous health awareness."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
             lineNumber: 495,
