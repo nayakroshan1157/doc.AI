@@ -16,6 +16,7 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/app/layout.js [app-rs
 "[project]/app/[username]/page.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client"
 __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
@@ -30,7 +31,7 @@ const Username = ({ params: params1 })=>{
         children: params1.username
     }, void 0, false, {
         fileName: "[project]/app/[username]/page.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

@@ -4,29 +4,21 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from 'next/navigation'
 import Lottie from "lottie-react";
 import AI from "./AI Robot.json"
-// const profile = () => {
-//    const { data: session } = useSession()
-//       if (!session) {  
-//          const router = useRouter()
-//          router.push('/login')
-//       }
-const profile = () => {
-  const { data: session, status } = useSession()
-  const router = useRouter()
+
+const profile = ({params}) => {
+ 
+  const { data: session, status } = useSession();
+  const router = useRouter();
 
   useEffect(() => {
     if (status === "unauthenticated") {
-      router.push("/login")
+      router.push("/login");
     }
-  }, [status, router])
+  }, [status, router]);
 
-  if (status === "loading") {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        Loading...
-      </div>
-    )
-  }
+  if (status === "loading") return <div>Loading...</div>;
+
+
 
   return (
   <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen flex items-center justify-center p-4">
@@ -39,11 +31,8 @@ const profile = () => {
       
       {/* <!-- Profile Image --> */}
       <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2">
-        <img
-          src="https://via.placeholder.com/150"
-          alt=""
-          className="w-36 h-36 rounded-full border-4 border-white shadow-lg"
-        />
+       
+<img src="https://ui-avatars.com/api/?name=User" />
       </div>
 
       {/* <!-- AI Badge --> */}
@@ -64,7 +53,7 @@ const profile = () => {
       {/* <!-- Name & Rating --> */}
       <div className="text-center">
         <h1 className="text-3xl font-bold text-gray-800">
-          Dr. Sasanka Routray
+          Dr. Sarmilla Routray
         </h1>
         <p className="text-blue-600 font-medium">
           Endocrinologist • MD • AI Health Specialist
@@ -162,68 +151,3 @@ const profile = () => {
 
 export default profile
 
-// "use client"
-
-// import React, { useEffect } from "react"
-// import { useSession } from "next-auth/react"
-// import { useRouter } from "next/navigation"
-// import Lottie from "lottie-react"
-// import AI from "./AI Robot.json"
-
-// const Profile = () => {
-//   const { data: session, status } = useSession()
-//   const router = useRouter()
-
-//   useEffect(() => {
-//     if (status === "unauthenticated") {
-//       router.push("/login")
-//     }
-//   }, [status, router])
-
-//   if (status === "loading") {
-//     return (
-//       <div className="min-h-screen flex items-center justify-center">
-//         Loading...
-//       </div>
-//     )
-//   }
-
-//   return (
-//     <div className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen flex items-center justify-center p-4">
-//       {/* Profile Card */}
-//       <div className="bg-white shadow-2xl rounded-3xl max-w-5xl w-full overflow-hidden">
-
-//         {/* Header */}
-//         <div className="relative bg-gradient-to-r from-blue-600 to-indigo-600 h-48">
-
-//           {/* Profile Image */}
-//           <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2">
-//             <img
-//               src="https://via.placeholder.com/150"
-//               alt="Profile"
-//               className="w-36 h-36 rounded-full border-4 border-white shadow-lg"
-//             />
-//           </div>
-
-//           {/* AI Badge */}
-//           <div className="absolute top-6 right-6 px-4 py-1">
-//             <span className="text-sm font-semibold rounded-full bg-white/90 text-blue-600">
-//               🤖 AI Verified Doctor
-//             </span>
-//             <Lottie animationData={AI} className="w-24 h-24" />
-//           </div>
-//         </div>
-
-//         {/* Content */}
-//         <div className="pt-20 px-8 pb-8">
-//           <h1 className="text-3xl font-bold text-center text-gray-800">
-//             Dr. Sasanka Routray
-//           </h1>
-//         </div>
-
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Profile

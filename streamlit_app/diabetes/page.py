@@ -143,89 +143,96 @@ def get_csv_download(df):
 # ================== PDF FUNCTION ==================
 def generate_custom_pdf(df, prediction, risk, name, age, gender):
     filename = "Diabetes_Report.pdf"
-    pdf = SimpleDocTemplate(filename, pagesize=A4)
+    pdf = SimpleDocTemplate(filename, pagesize=A4, rightMargin=30, leftMargin=30, topMargin=30, bottomMargin=30)
     styles = getSampleStyleSheet()
     elements = []
 
-    title_style = ParagraphStyle(
-        "TitleStyle",
-        fontSize=18,
-        textColor=colors.darkblue,
-        alignment=1
-    )
+    # --- Styles ---
+    title_style = ParagraphStyle("TitleStyle", fontSize=18, textColor=colors.darkblue, alignment=1, spaceAfter=20)
+    section_style = ParagraphStyle("SectionStyle", fontSize=12, fontName="Helvetica-Bold", spaceAfter=10, textColor=colors.black)
+    label_style = styles["Normal"]
 
-    section_style = ParagraphStyle(
-        "SectionStyle",
-        fontSize=12,
-        fontName="Helvetica-Bold",
-        spaceAfter=10
-    )
-
-    # ✅ Safe logo loading
+    # --- Header ---
     try:
-        elements.append(Image("logo.png", width=60, height=60))
+        elements.append(Image("logo.png", width=50, height=50))
     except:
         pass
-
+    
     elements.append(Paragraph("MEDIFLO – Diabetes Prediction Report", title_style))
-    elements.append(Spacer(1, 12))
-
-    # Patient info
-    elements.append(Paragraph(
-        f"<b>Name:</b> {name} &nbsp;&nbsp; <b>Age:</b> {age} &nbsp;&nbsp; <b>Gender:</b> {gender}",
-        styles["Normal"]
-    ))
-
-    elements.append(Paragraph(
-        f"Date: {datetime.now().strftime('%d-%m-%Y %H:%M')}",
-        styles["Normal"]
-    ))
-
-    elements.append(Spacer(1, 12))
-
-    # Table
-    elements.append(Paragraph("Clinical Parameters", section_style))
-
-    table_data = [df.columns.tolist()] + df.values.tolist()
-    table = Table(table_data)
-
-    table.setStyle(TableStyle([
-        ("BACKGROUND", (0,0), (-1,0), colors.lightgrey),
-        ("GRID", (0,0), (-1,-1), 1, colors.black),
-        ("ALIGN", (0,0), (-1,-1), "CENTER"),
-        ("FONT", (0,0), (-1,0), "Helvetica-Bold")
-    ]))
-
-    elements.append(table)
-    elements.append(Spacer(1, 12))
-
-    # Result
-    result_text = "Diabetes Detected" if prediction == 1 else "No Diabetes"
-
-    elements.append(Paragraph("Prediction Summary", section_style))
-    elements.append(Paragraph(
-        f"<b>Result:</b> {result_text}<br/><b>Risk:</b> {risk:.2f}%",
-        styles["Normal"]
-    ))
-
-    elements.append(Spacer(1, 12))
-
-    elements.append(Paragraph(
-        "HbA1c reflects average glucose levels over 2–3 months. "
-        "Values ≥ 6.5% indicate diabetes.",
-        styles["Normal"]
-    ))
-
+    
+    # Patient Info Header
+    info_data = [
+        [f"Patient Name: {name}", f"Date: {datetime.now().strftime('%d-%m-%Y %H:%M')}"],
+        [f"Age: {age}", f"Gender: {gender}"]
+    ]
+    info_table = Table(info_data, colWidths=[250, 250])
+    info_table.setStyle(TableStyle([('TEXTCOLOR', (0,0), (-1,-1), colors.grey), ('FONTSIZE', (0,0), (-1,-1), 10)]))
+    elements.append(info_table)
     elements.append(Spacer(1, 20))
 
+    # --- Clinical Parameters (Transposed for Printing) ---
+    elements.append(Paragraph("Clinical Parameter Details", section_style))
+    
+    # We transpose the DF so it's vertically readable (Parameter | Value)
+    # This prevents the "too wide" table issue
+    display_df = df.iloc[0].to_frame().reset_index()
+    display_df.columns = ["Parameter", "Value"]
+    
+    table_data = [["Clinical Parameter", "Result"]] + display_df.values.tolist()
+    
+    # Set fixed widths to fit A4 (A4 width is ~595 points)
+    # 200 for labels, 150 for values
+    table = Table(table_data, colWidths=[200, 150]) 
+
+    table.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), colors.darkblue),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.whitesmoke),
+        ("ALIGN", (0, 0), (-1, -1), "LEFT"),
+        ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+        ("FONTSIZE", (0, 0), (-1, -1), 10),
+        ("BOTTOMPADDING", (0, 0), (-1, 0), 10),
+        ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+    ]))
+    
+    elements.append(table)
+    elements.append(Spacer(1, 20))
+
+    # --- Result Section ---
+    elements.append(Paragraph("Prediction Analysis", section_style))
+    
+    result_text = "DIABETES DETECTED" if prediction == 1 else "NO DIABETES DETECTED"
+    result_color = colors.red if prediction == 1 else colors.green
+
+    summary_data = [
+        [Paragraph(f"<b>Final Diagnosis:</b>", label_style), Paragraph(f"<font color={result_color}><b>{result_text}</b></font>", label_style)],
+        [Paragraph(f"<b>Calculated Risk Score:</b>", label_style), f"{risk:.2f}%"]
+    ]
+    
+    summary_table = Table(summary_data, colWidths=[200, 150])
+    summary_table.setStyle(TableStyle([
+        ('BOX', (0,0), (-1,-1), 1, colors.black),
+        ('INNERGRID', (0,0), (-1,-1), 0.5, colors.lightgrey),
+        ('BACKGROUND', (0,0), (0,-1), colors.whitesmoke),
+    ]))
+    
+    elements.append(summary_table)
+    elements.append(Spacer(1, 20))
+
+    # --- Medical Disclaimer ---
+    elements.append(Paragraph("<b>Medical Interpretation:</b>", styles["Normal"]))
     elements.append(Paragraph(
-        "Doctor's Note: Further clinical validation is recommended.",
-        styles["Normal"]
+        "This report is generated based on a machine learning model. Values such as HbA1c (≥6.5%) "
+        "and Glucose levels are primary indicators. This is not a final clinical diagnosis.",
+        styles["Italic"]
     ))
+    
+    elements.append(Spacer(1, 30))
+    elements.append(Paragraph("__________________________", label_style))
+    elements.append(Paragraph("Authorized Signatory / Lab System", label_style))
 
     pdf.build(elements)
     return filename
-
 # ================== UI ==================
 st.title("🧬 Blood Sugar Detection System")
 

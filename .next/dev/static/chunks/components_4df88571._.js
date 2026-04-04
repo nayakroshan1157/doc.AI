@@ -18,11 +18,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const Footer = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "7e1709f17ae8653eb1b0fd858d033aae81ab9195a64401b93ccfc20d6e39fcaa") {
+    if ($[0] !== "57e9ad1740aafa87d14132d8d2b82da42f4debfd02d81e0df17b53b8bdd0db7f") {
         for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7e1709f17ae8653eb1b0fd858d033aae81ab9195a64401b93ccfc20d6e39fcaa";
+        $[0] = "57e9ad1740aafa87d14132d8d2b82da42f4debfd02d81e0df17b53b8bdd0db7f";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -54,10 +54,10 @@ const Footer = ()=>{
                             href: "/",
                             className: "text-white hover:text-blue-300 transition duration-300",
                             children: [
-                                " DOC.",
+                                " MEDI",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-blue-400",
-                                    children: "AI"
+                                    children: "FLO"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.js",
                                     lineNumber: 25,
@@ -81,7 +81,7 @@ const Footer = ()=>{
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.js",
                     lineNumber: 25,
-                    columnNumber: 230
+                    columnNumber: 231
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
@@ -167,7 +167,7 @@ const Footer = ()=>{
     if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-blue-50 text-subtle-text text-sm mb-4 sm:mb-0",
-            children: "© 2025 doc.ai, Inc. All rights reserved."
+            children: "© 2025 MEDIFLO, Inc. All rights reserved."
         }, void 0, false, {
             fileName: "[project]/components/Footer.js",
             lineNumber: 39,

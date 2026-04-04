@@ -1,0 +1,453 @@
+module.exports = [
+"[externals]/next/dist/server/app-render/action-async-storage.external.js [external] (next/dist/server/app-render/action-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/action-async-storage.external.js", () => require("next/dist/server/app-render/action-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[project]/app/login/page.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// "use client"
+// import React from 'react'
+// import { useSession, signIn, signOut } from "next-auth/react"
+// import { useRouter } from 'next/navigation'
+// const Login = () => {
+//     const { data: session } = useSession()
+//     if (session) {
+//        const router = useRouter()
+//        router.push('/profile')
+//     }
+//     return (
+//     <div className='text-white py-14 container mx-auto'>
+//         <h1 className='text-center font-bold text-3xl'>Signup/Login to get connect with Us</h1>
+//         <div className="flex flex-col gap-2 min-h-screen p-10 items-center">
+//             <button
+//                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+//                 <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+//                     viewBox="-0.5 0 48 48" version="1.1">
+//                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+//                         <g id="Color-" transform="translate(-401.000000, -860.000000)">
+//                             <g id="Google" transform="translate(401.000000, 860.000000)">
+//                                 <path
+//                                     d="M9.82727273,24 C9.82727273,22.4757333 10.0804318,21.0144 10.5322727,19.6437333 L2.62345455,13.6042667 C1.08206818,16.7338667 0.213636364,20.2602667 0.213636364,24 C0.213636364,27.7365333 1.081,31.2608 2.62025,34.3882667 L10.5247955,28.3370667 C10.0772273,26.9728 9.82727273,25.5168 9.82727273,24"
+//                                     id="Fill-1" fill="#FBBC05"> </path>
+//                                 <path
+//                                     d="M23.7136364,10.1333333 C27.025,10.1333333 30.0159091,11.3066667 32.3659091,13.2266667 L39.2022727,6.4 C35.0363636,2.77333333 29.6954545,0.533333333 23.7136364,0.533333333 C14.4268636,0.533333333 6.44540909,5.84426667 2.62345455,13.6042667 L10.5322727,19.6437333 C12.3545909,14.112 17.5491591,10.1333333 23.7136364,10.1333333"
+//                                     id="Fill-2" fill="#EB4335"> </path>
+//                                 <path
+//                                     d="M23.7136364,37.8666667 C17.5491591,37.8666667 12.3545909,33.888 10.5322727,28.3562667 L2.62345455,34.3946667 C6.44540909,42.1557333 14.4268636,47.4666667 23.7136364,47.4666667 C29.4455,47.4666667 34.9177955,45.4314667 39.0249545,41.6181333 L31.5177727,35.8144 C29.3995682,37.1488 26.7323182,37.8666667 23.7136364,37.8666667"
+//                                     id="Fill-3" fill="#34A853"> </path>
+//                                 <path
+//                                     d="M46.1454545,24 C46.1454545,22.6133333 45.9318182,21.12 45.6113636,19.7333333 L23.7136364,19.7333333 L23.7136364,28.8 L36.3181818,28.8 C35.6879545,31.8912 33.9724545,34.2677333 31.5177727,35.8144 L39.0249545,41.6181333 C43.3393409,37.6138667 46.1454545,31.6490667 46.1454545,24"
+//                                     id="Fill-4" fill="#4285F4"> </path>
+//                             </g>
+//                         </g>
+//                     </g>
+//                 </svg>
+//                  <span onClick={() => { signIn("google") }}>Continue with Google</span>
+//             </button>
+//             <button
+//                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+//                 <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+//                     viewBox="0 0 73 73" version="1.1">
+//                     <g id="team-collaboration/version-control/github" stroke="none" stroke-width="1" fill="none"
+//                         fill-rule="evenodd">
+//                         <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+//                             <rect id="mask" stroke="#000000" stroke-width="2" fill="#000000" x="-1"
+//                                 y="-1" width="71" height="71" rx="14">
+//                             </rect>
+//                             <path
+//                                 d="M58.3067362,21.4281798 C55.895743,17.2972267 52.6253846,14.0267453 48.4948004,11.615998 C44.3636013,9.20512774 39.8535636,8 34.9614901,8 C30.0700314,8 25.5585181,9.20549662 21.4281798,11.615998 C17.2972267,14.0266224 14.0269912,17.2972267 11.615998,21.4281798 C9.20537366,25.5590099 8,30.0699084 8,34.9607523 C8,40.8357654 9.71405782,46.1187277 13.1430342,50.8109917 C16.5716416,55.5036246 21.0008949,58.7507436 26.4304251,60.5527176 C27.0624378,60.6700211 27.5302994,60.5875152 27.8345016,60.3072901 C28.1388268,60.0266961 28.290805,59.6752774 28.290805,59.2545094 C28.290805,59.1842994 28.2847799,58.5526556 28.2730988,57.3588401 C28.2610487,56.1650247 28.2553926,55.1235563 28.2553926,54.2349267 L27.4479164,54.3746089 C26.9330843,54.468919 26.2836113,54.5088809 25.4994975,54.4975686 C24.7157525,54.4866252 23.9021284,54.4044881 23.0597317,54.2517722 C22.2169661,54.1004088 21.4330982,53.749359 20.7075131,53.1993604 C19.982297,52.6493618 19.4674649,51.9294329 19.1631397,51.0406804 L18.8120898,50.2328353 C18.5780976,49.6950097 18.2097104,49.0975487 17.7064365,48.4426655 C17.2031625,47.7871675 16.6942324,47.3427912 16.1794003,47.108799 L15.9336039,46.9328437 C15.7698216,46.815909 15.6178435,46.6748743 15.4773006,46.511215 C15.3368806,46.3475556 15.2317501,46.1837734 15.1615401,46.0197452 C15.0912072,45.855594 15.1494901,45.7209532 15.3370036,45.6153308 C15.5245171,45.5097084 15.8633939,45.4584343 16.3551097,45.4584343 L17.0569635,45.5633189 C17.5250709,45.6571371 18.104088,45.9373622 18.7947525,46.4057156 C19.4850481,46.8737001 20.052507,47.4821045 20.4972521,48.230683 C21.0358155,49.1905062 21.6846737,49.9218703 22.4456711,50.4251443 C23.2060537,50.9284182 23.9727072,51.1796248 24.744894,51.1796248 C25.5170807,51.1796248 26.1840139,51.121096 26.7459396,51.0046532 C27.3072505,50.8875956 27.8338868,50.7116403 28.3256025,50.477771 C28.5362325,48.9090515 29.1097164,47.7039238 30.0455624,46.8615271 C28.7116959,46.721353 27.5124702,46.5102313 26.4472706,46.2295144 C25.3826858,45.9484285 24.2825656,45.4922482 23.1476478,44.8597436 C22.0121153,44.2280998 21.0701212,43.44374 20.3214198,42.5080169 C19.5725954,41.571802 18.9580429,40.3426971 18.4786232,38.821809 C17.9989575,37.300306 17.7590632,35.5451796 17.7590632,33.5559381 C17.7590632,30.7235621 18.6837199,28.3133066 20.5326645,26.3238191 C19.6665366,24.1944035 19.7483048,21.8072644 20.778215,19.1626478 C21.4569523,18.951772 22.4635002,19.1100211 23.7973667,19.6364115 C25.1314792,20.1630477 26.1082708,20.6141868 26.7287253,20.9882301 C27.3491798,21.3621504 27.8463057,21.6790175 28.2208409,21.9360032 C30.3978419,21.3277217 32.644438,21.0235195 34.9612442,21.0235195 C37.2780503,21.0235195 39.5251383,21.3277217 41.7022622,21.9360032 L43.0362517,21.0938524 C43.9484895,20.5319267 45.0257392,20.0169716 46.2654186,19.5488642 C47.5058357,19.0810026 48.4543466,18.9521409 49.1099676,19.1630167 C50.1627483,21.8077563 50.2565666,24.1947724 49.3901927,26.324188 C51.2390143,28.3136755 52.1640399,30.7245457 52.1640399,33.556307 C52.1640399,35.5455485 51.9232849,37.3062081 51.444357,38.8393922 C50.9648143,40.3728223 50.3449746,41.6006975 49.5845919,42.5256002 C48.8233486,43.4503799 47.8753296,44.2285916 46.7404118,44.8601125 C45.6052481,45.4921252 44.504759,45.9483056 43.4401742,46.2293914 C42.3750975,46.5104772 41.1758719,46.7217219 39.8420054,46.8621419 C41.0585683,47.9149226 41.6669728,49.5767225 41.6669728,51.846804 L41.6669728,59.2535257 C41.6669728,59.6742937 41.8132948,60.0255895 42.1061847,60.3063064 C42.3987058,60.5865315 42.8606653,60.6690374 43.492678,60.5516109 C48.922946,58.7498829 53.3521992,55.5026409 56.7806837,50.810008 C60.2087994,46.117744 61.923472,40.8347817 61.923472,34.9597686 C61.9222424,30.0695396 60.7162539,25.5590099 58.3067362,21.4281798 Z"
+//                                 id="Shape" fill="#FFFFFF">
+//                             </path>
+//                         </g>
+//                     </g>
+//                 </svg>
+//                 <span onClick={() => { signIn("github") }}>Continue with Github</span>
+//             </button>
+//             <button
+//                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+//                 <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+//                     viewBox="0 0 48 48" version="1.1">
+//                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+//                         <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0">
+//                             <path
+//                                 d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z"
+//                                 id="Facebook">
+//                             </path>
+//                         </g>
+//                     </g>
+//                 </svg>
+//                 <span>Continue with Facebook</span>
+//             </button>
+//             <button
+//                 className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+//                 <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+//                     viewBox="-1.5 0 20 20" version="1.1">
+//                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+//                         <g id="Dribbble-Light-Preview" transform="translate(-102.000000, -7439.000000)" fill="#000000">
+//                             <g id="icons" transform="translate(56.000000, 160.000000)">
+//                                 <path
+//                                     d="M57.5708873,7282.19296 C58.2999598,7281.34797 58.7914012,7280.17098 58.6569121,7279 C57.6062792,7279.04 56.3352055,7279.67099 55.5818643,7280.51498 C54.905374,7281.26397 54.3148354,7282.46095 54.4735932,7283.60894 C55.6455696,7283.69593 56.8418148,7283.03894 57.5708873,7282.19296 M60.1989864,7289.62485 C60.2283111,7292.65181 62.9696641,7293.65879 63,7293.67179 C62.9777537,7293.74279 62.562152,7295.10677 61.5560117,7296.51675 C60.6853718,7297.73474 59.7823735,7298.94772 58.3596204,7298.97372 C56.9621472,7298.99872 56.5121648,7298.17973 54.9134635,7298.17973 C53.3157735,7298.17973 52.8162425,7298.94772 51.4935978,7298.99872 C50.1203933,7299.04772 49.0738052,7297.68074 48.197098,7296.46676 C46.4032359,7293.98379 45.0330649,7289.44985 46.8734421,7286.3899 C47.7875635,7284.87092 49.4206455,7283.90793 51.1942837,7283.88393 C52.5422083,7283.85893 53.8153044,7284.75292 54.6394294,7284.75292 C55.4635543,7284.75292 57.0106846,7283.67793 58.6366882,7283.83593 C59.3172232,7283.86293 61.2283842,7284.09893 62.4549652,7285.8199 C62.355868,7285.8789 60.1747177,7287.09489 60.1989864,7289.62485"
+//                                     id="apple-[#173]">
+//                                 </path>
+//                             </g>
+//                         </g>
+//                     </g>
+//                 </svg>
+//                 <span>Continue with Apple</span>
+//             </button>
+//          <button
+//   className="flex items-center w-64 bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+// >
+//   {/* Email Icon */}
+//   <svg
+//     className="h-6 w-6 mr-2"
+//     fill="none"
+//     stroke="currentColor"
+//     strokeWidth="2"
+//     viewBox="0 0 24 24"
+//     xmlns="http://www.w3.org/2000/svg"
+//   >
+//     <path
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//       d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+//     />
+//   </svg>
+//   <span>Continue with Email</span>
+// </button>
+//         </div>
+//     </div>
+//   )
+// }
+// export default Login
+// // "use client"
+// // import React, { useState } from 'react'
+// // import { useSession, signIn } from "next-auth/react"
+// // import { useRouter } from 'next/navigation'
+// // import { ToastContainer, toast } from 'react-toastify';
+// // import 'react-toastify/dist/ReactToastify.css';
+// // const Login = () => {
+// //     const { data: session } = useSession()
+// //     const router = useRouter()
+// //     // State for MERN Login
+// //     const [loginInfo, setLoginInfo] = useState({ email: '', password: '' })
+// //     if (session) {
+// //         router.push('/profile')
+// //         return null 
+// //     }
+// //     const handleChange = (e) => {
+// //         setLoginInfo({ ...loginInfo, [e.target.name]: e.target.value })
+// //     }
+// //     const handleMernLogin = async (e) => {
+// //         e.preventDefault();
+// //         const { email, password } = loginInfo;
+// //         if (!email || !password) return toast.error('Email and password required');
+// //         try {
+// //             // Point this to your local backend server
+// //             const url = `http://localhost:8080/auth/login`; 
+// //             const response = await fetch(url, {
+// //                 method: "POST",
+// //                 headers: { 'Content-Type': 'application/json' },
+// //                 body: JSON.stringify(loginInfo)
+// //             });
+// //             const result = await response.json();
+// //             if (result.success) {
+// //                 toast.success("Login Successful!");
+// //                 localStorage.setItem('token', result.jwtToken);
+// //                 localStorage.setItem('loggedInUser', result.name);
+// //                 setTimeout(() => router.push('/profile'), 1000);
+// //             } else {
+// //                 toast.error(result.message || "Invalid Credentials");
+// //             }
+// //         } catch (err) {
+// //             toast.error("Server connection failed");
+// //         }
+// //     }
+// //     return (
+// //         <div className='text-white py-14 container mx-auto font-sans'>
+// //             <h1 className='text-center font-bold text-3xl mb-8'>Connect with Mediflo</h1>
+// //             <div className="flex flex-col md:flex-row gap-10 justify-center items-start px-10">
+// //                 {/* LEFT SIDE: Custom MERN Login Form */}
+// //                 <div className="bg-slate-900 p-8 rounded-2xl border border-white/10 w-full max-w-md">
+// //                     <h2 className="text-xl font-semibold mb-6">Email Login</h2>
+// //                     <form onSubmit={handleMernLogin} className="space-y-4">
+// //                         <div>
+// //                             <label className="block text-sm text-gray-400 mb-1">Email</label>
+// //                             <input 
+// //                                 name="email"
+// //                                 type="email" 
+// //                                 onChange={handleChange}
+// //                                 className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-red-500 outline-none"
+// //                                 placeholder="name@company.com"
+// //                             />
+// //                         </div>
+// //                         <div>
+// //                             <label className="block text-sm text-gray-400 mb-1">Password</label>
+// //                             <input 
+// //                                 name="password"
+// //                                 type="password" 
+// //                                 onChange={handleChange}
+// //                                 className="w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-red-500 outline-none"
+// //                                 placeholder="••••••••"
+// //                             />
+// //                         </div>
+// //                         <button type="submit" className="w-full bg-red-600 hover:bg-red-500 py-3 rounded-lg font-bold transition-all">
+// //                             Sign In
+// //                         </button>
+// //                     </form>
+// //                     <p className="mt-4 text-center text-sm text-gray-400">
+// //                         New here? <span onClick={() => router.push('/signup')} className="text-red-500 cursor-pointer hover:underline">Create Account</span>
+// //                     </p>
+// //                 </div>
+// //                 {/* RIGHT SIDE: Social Logins */}
+// //                 <div className="flex flex-col gap-4 w-full max-w-xs pt-4">
+// //                     <div className="relative mb-4">
+// //                         <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-slate-700"></div></div>
+// //                         <div className="relative flex justify-center text-xs uppercase"><span className="px-2 bg-slate-950 text-gray-500">Or continue with</span></div>
+// //                     </div>
+// //                     <button onClick={() => signIn("google")} className="flex items-center justify-center gap-3 w-full bg-white text-black py-2 rounded-lg font-medium hover:bg-gray-200 transition-all">
+// //                          {/* Google SVG from your code */}
+// //                          <span>Google</span>
+// //                     </button>
+// //                     <button onClick={() => signIn("github")} className="flex items-center justify-center gap-3 w-full bg-zinc-800 text-white py-2 rounded-lg font-medium hover:bg-zinc-700 transition-all">
+// //                          {/* Github SVG from your code */}
+// //                          <span>Github</span>
+// //                     </button>
+// //                 </div>
+// //             </div>
+// //             <ToastContainer theme="dark" />
+// //         </div>
+// //     )
+// // }
+// // export default Login
+__turbopack_context__.s([
+    "default",
+    ()=>Login
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [app-ssr] (ecmascript)"); // Added useSession
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-toastify/dist/index.mjs [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+;
+;
+function Login() {
+    const [loginInfo, setLoginInfo] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
+        email: '',
+        password: ''
+    });
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const { data: session, status } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSession"])();
+    // 1. REDIRECT FOR SOCIAL LOGIN (NextAuth)
+    // If the session exists (Google/Github login), redirect to profile
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (status === "authenticated") {
+            router.push('/profile');
+        }
+    }, [
+        status,
+        router
+    ]);
+    // 2. REDIRECT FOR CUSTOM MERN LOGIN
+    const handleLogin = async (e)=>{
+        e.preventDefault();
+        try {
+            // Updated port and route based on your previous fix (3000 instead of 8080)
+            const response = await fetch('http://localhost:3000/login', {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(loginInfo)
+            });
+            const result = await response.json();
+            if (result.success) {
+                // Save to localStorage for MERN state management
+                localStorage.setItem('token', result.jwtToken);
+                localStorage.setItem('loggedInUser', result.name);
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].success("Welcome back!");
+                // Redirect after a short delay so user sees the toast
+                setTimeout(()=>{
+                    router.push('/profile');
+                }, 1000);
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error(result.message || "Login failed");
+            }
+        } catch (error) {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error("Could not connect to server");
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "min-h-screen bg-slate-950 flex flex-col items-center justify-center p-6",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full max-w-md bg-slate-900 p-8 rounded-2xl border border-white/10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                        onSubmit: handleLogin,
+                        className: "space-y-4 mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-xl text-white font-bold text-center",
+                                children: "Sign In"
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 309,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                type: "email",
+                                placeholder: "Email",
+                                className: "w-full p-3 bg-slate-800 text-white rounded-lg outline-none focus:ring-2 focus:ring-red-500",
+                                onChange: (e)=>setLoginInfo({
+                                        ...loginInfo,
+                                        email: e.target.value
+                                    }),
+                                required: true
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 311,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                type: "password",
+                                placeholder: "Password",
+                                className: "w-full p-3 bg-slate-800 text-white rounded-lg outline-none focus:ring-2 focus:ring-red-500",
+                                onChange: (e)=>setLoginInfo({
+                                        ...loginInfo,
+                                        password: e.target.value
+                                    }),
+                                required: true
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 319,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "w-full bg-red-600 hover:bg-red-500 text-white py-3 rounded-lg font-bold transition-colors",
+                                children: "Login"
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 327,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/login/page.js",
+                        lineNumber: 308,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute inset-0 flex items-center",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-full border-t border-slate-700"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/login/page.js",
+                                    lineNumber: 333,
+                                    columnNumber: 73
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 333,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative flex justify-center text-xs uppercase",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "px-2 bg-slate-900 text-gray-500",
+                                    children: "Or"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/login/page.js",
+                                    lineNumber: 334,
+                                    columnNumber: 85
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 334,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/login/page.js",
+                        lineNumber: 332,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["signIn"])("google", {
+                                        callbackUrl: "/profile"
+                                    }),
+                                className: "w-full bg-white text-black py-2 rounded-lg font-medium hover:bg-gray-200 transition-colors",
+                                children: "Continue with Google"
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 339,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["signIn"])("github", {
+                                        callbackUrl: "/profile"
+                                    }),
+                                className: "w-full bg-zinc-800 text-white py-2 rounded-lg font-medium hover:bg-zinc-700 transition-colors",
+                                children: "Continue with Github"
+                            }, void 0, false, {
+                                fileName: "[project]/app/login/page.js",
+                                lineNumber: 346,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/login/page.js",
+                        lineNumber: 337,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/login/page.js",
+                lineNumber: 307,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ToastContainer"], {
+                theme: "dark",
+                position: "top-right"
+            }, void 0, false, {
+                fileName: "[project]/app/login/page.js",
+                lineNumber: 354,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/app/login/page.js",
+        lineNumber: 306,
+        columnNumber: 9
+    }, this);
+}
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__b58a197f._.js.map

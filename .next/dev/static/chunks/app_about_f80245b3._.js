@@ -8,166 +8,6 @@ __turbopack_context__.v(JSON.parse("{\"v\":\"5.12.2\",\"fr\":60,\"ip\":0,\"op\":
 "[project]/app/about/page.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// // "use client";
-// // import Link from "next/link";
-// // import { motion } from "framer-motion";
-// // const fadeUp = {
-// //   hidden: { opacity: 0, y: 40 },
-// //   visible: { opacity: 1, y: 0 },
-// //   transition:{ duration: 0.6 }
-// // };
-// // const stagger = {
-// //   hidden: {},
-// //   visible: {
-// //     transition: {
-// //       staggerChildren: 0.2
-// //     }
-// //   }
-// // };
-// // export default function AboutDocAI() {
-// //   return (
-// //     <section className="bg-gradient-to-b from-blue-50 via-white to-green-50 py-16">
-// //       <div className="max-w-7xl mx-auto px-6">
-// //         {/* Header */}
-// //         <motion.div
-// //           initial="hidden"
-// //           whileInView="visible"
-// //           viewport={{ once: true }}
-// //           variants={fadeUp}
-// //           transition={{ duration: 0.6 }}
-// //           className="text-center mb-16"
-// //         >
-// //           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-// //             About 
-// //         <Link
-// //           href="/" className="text-white m-4 hover:text-blue-300 transition duration-300">
-// //          DOC.<span className="text-blue-400">AI</span>
-// //         </Link>
-// //           </h1>
-// //           <p className="mt-6 text-gray-600 max-w-3xl mx-auto text-lg">
-// //             Doc.AI is an AI-powered healthcare platform designed to assist
-// //             doctors and patients with early disease prediction, preventive
-// //             care, and personalized medical insights.
-// //           </p>
-// //         </motion.div>
-// //         {/* What is Doc.AI */}
-// //         <motion.div
-// //           initial="hidden"
-// //           whileInView="visible"
-// //           viewport={{ once: true }}
-// //           variants={stagger}
-// //           className="grid md:grid-cols-2 gap-12 items-center mb-20"
-// //         >
-// //           <motion.div variants={fadeUp}>
-// //             <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-// //               What is Doc.AI?
-// //             </h2>
-// //             <p className="text-gray-600 leading-relaxed mb-4">
-// //               Doc.AI combines artificial intelligence with clinical knowledge
-// //               to analyze patient symptoms, lab reports, vitals, and medical
-// //               history.
-// //             </p>
-// //             <p className="text-gray-600 leading-relaxed">
-// //               It supports early detection of diabetes, heart disease, and
-// //               maternal health risks, enabling timely medical intervention.
-// //             </p>
-// //           </motion.div>
-// //           <motion.div
-// //             variants={fadeUp}
-// //             className="bg-gray-50 rounded-xl p-8 shadow-sm"
-// //           >
-// //             <ul className="space-y-4 text-gray-700">
-// //               <li>✔ AI-assisted disease prediction</li>
-// //               <li>✔ Preventive healthcare analytics</li>
-// //               <li>✔ Personalized treatment insights</li>
-// //               <li>✔ Secure & ethical data handling</li>
-// //             </ul>
-// //           </motion.div>
-// //         </motion.div>
-// //         {/* Mission & Vision */}
-// //         <motion.div
-// //           initial="hidden"
-// //           whileInView="visible"
-// //           viewport={{ once: true }}
-// //           variants={stagger}
-// //           className="grid md:grid-cols-2 gap-12 mb-20"
-// //         >
-// //           <motion.div
-// //             variants={fadeUp}
-// //             className="bg-blue-50 p-8 rounded-xl"
-// //           >
-// //             <h3 className="text-xl font-semibold text-blue-800 mb-3">
-// //               Our Mission
-// //             </h3>
-// //             <p className="text-gray-700 leading-relaxed">
-// //               To make quality healthcare accessible using AI-driven early
-// //               disease detection and preventive care.
-// //             </p>
-// //           </motion.div>
-// //           <motion.div
-// //             variants={fadeUp}
-// //             className="bg-green-50 p-8 rounded-xl"
-// //           >
-// //             <h3 className="text-xl font-semibold text-green-800 mb-3">
-// //               Our Vision
-// //             </h3>
-// //             <p className="text-gray-700 leading-relaxed">
-// //               To transform healthcare by empowering doctors with intelligent
-// //               clinical decision support systems.
-// //             </p>
-// //           </motion.div>
-// //         </motion.div>
-// //         {/* How It Works */}
-// //         <motion.div
-// //           initial="hidden"
-// //           whileInView="visible"
-// //           viewport={{ once: true }}
-// //           variants={stagger}
-// //           className="mb-20"
-// //         >
-// //           <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">
-// //             How Doc.AI Works
-// //           </h2>
-// //           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-// //             {[
-// //               { title: "Data Collection", desc: "Collects symptoms, reports, and vitals." },
-// //               { title: "AI Analysis", desc: "ML models analyze health patterns." },
-// //               { title: "Prediction", desc: "Predicts disease probability." },
-// //               { title: "Doctor Support", desc: "Assists doctors in decision-making." }
-// //             ].map((item, index) => (
-// //               <motion.div
-// //                 key={index}
-// //                 variants={fadeUp}
-// //                 className="bg-gray-50 p-6 rounded-xl shadow-sm text-center"
-// //               >
-// //                 <h4 className="font-semibold mb-2">{item.title}</h4>
-// //                 <p className="text-gray-600 text-sm">{item.desc}</p>
-// //               </motion.div>
-// //             ))}
-// //           </div>
-// //         </motion.div>
-// //         {/* Ethics */}
-// //         <motion.div
-// //           initial="hidden"
-// //           whileInView="visible"
-// //           viewport={{ once: true }}
-// //           variants={fadeUp}
-// //           transition={{ duration: 0.7 }}
-// //           className="bg-gray-900 text-white rounded-2xl p-10 text-center"
-// //         >
-// //           <h2 className="text-2xl font-semibold mb-4">
-// //             Ethical & Responsible AI
-// //           </h2>
-// //           <p className="text-gray-300 max-w-3xl mx-auto">
-// //             Doc.AI follows ethical AI practices, ensuring transparency,
-// //             fairness, and data privacy while assisting—not replacing—
-// //             medical professionals.
-// //           </p>
-// //         </motion.div>
-// //       </div>
-// //     </section>
-// //   );
-// // }
 __turbopack_context__.s([
     "default",
     ()=>AboutDocAI
@@ -207,11 +47,11 @@ const stagger = {
 };
 function AboutDocAI() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(24);
-    if ($[0] !== "83e5327b31c29ecd99c92b92f40a6fa1919a4969e3caa2e0ae95d6428762129e") {
+    if ($[0] !== "f8e9d904457a8cf47948fcffd7076ee7a093cf7aa805792a206b9c4550166396") {
         for(let $i = 0; $i < 24; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "83e5327b31c29ecd99c92b92f40a6fa1919a4969e3caa2e0ae95d6428762129e";
+        $[0] = "f8e9d904457a8cf47948fcffd7076ee7a093cf7aa805792a206b9c4550166396";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -220,7 +60,7 @@ function AboutDocAI() {
             children: "About MEDIFLO"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 437,
+            lineNumber: 37,
             columnNumber: 10
         }, this);
         $[1] = t0;
@@ -239,14 +79,14 @@ function AboutDocAI() {
                         "Making Healthcare ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 444,
+                            lineNumber: 44,
                             columnNumber: 121
                         }, this),
                         " Clear, Calm & Intelligent"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 444,
+                    lineNumber: 44,
                     columnNumber: 44
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -254,7 +94,7 @@ function AboutDocAI() {
                     children: "MEDIFLO was created to help patients understand their health better and support doctors with meaningful insights — without replacing human judgment."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 444,
+                    lineNumber: 44,
                     columnNumber: 162
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -262,13 +102,13 @@ function AboutDocAI() {
                     children: "We believe technology should reduce anxiety, not create it."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 444,
+                    lineNumber: 44,
                     columnNumber: 356
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 444,
+            lineNumber: 44,
             columnNumber: 10
         }, this);
         $[2] = t1;
@@ -295,23 +135,23 @@ function AboutDocAI() {
                             loop: true
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 451,
+                            lineNumber: 51,
                             columnNumber: 284
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 451,
+                        lineNumber: 51,
                         columnNumber: 222
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 451,
+                lineNumber: 51,
                 columnNumber: 77
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 451,
+            lineNumber: 51,
             columnNumber: 10
         }, this);
         $[3] = t2;
@@ -326,7 +166,7 @@ function AboutDocAI() {
             children: "How MEDIFLO Thinks"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 459,
+            lineNumber: 59,
             columnNumber: 10
         }, this);
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -334,7 +174,7 @@ function AboutDocAI() {
             children: "MEDIFLO follows a structured, doctor-friendly intelligence pipeline to analyze health data responsibly and meaningfully."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 460,
+            lineNumber: 60,
             columnNumber: 10
         }, this);
         $[4] = t3;
@@ -385,7 +225,7 @@ function AboutDocAI() {
                             ].map(_AboutDocAIAnonymous)
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 469,
+                            lineNumber: 69,
                             columnNumber: 142
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -393,23 +233,23 @@ function AboutDocAI() {
                             children: "AI assists in analysis — medical authority always remains with doctors."
                         }, void 0, false, {
                             fileName: "[project]/app/about/page.js",
-                            lineNumber: 469,
+                            lineNumber: 69,
                             columnNumber: 551
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 469,
+                    lineNumber: 69,
                     columnNumber: 82
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 469,
+                lineNumber: 69,
                 columnNumber: 46
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 469,
+            lineNumber: 69,
             columnNumber: 10
         }, this);
         $[6] = t5;
@@ -436,12 +276,12 @@ function AboutDocAI() {
                 loop: true
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 485,
+                lineNumber: 85,
                 columnNumber: 72
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 485,
+            lineNumber: 85,
             columnNumber: 10
         }, this);
         $[8] = t7;
@@ -457,7 +297,7 @@ function AboutDocAI() {
             children: "Patient-First. Doctor-Guided."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 494,
+            lineNumber: 94,
             columnNumber: 10
         }, this);
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -465,7 +305,7 @@ function AboutDocAI() {
             children: "MEDIFLO is designed to support patients with early insights, simplified explanations, and continuous health awareness."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 495,
+            lineNumber: 95,
             columnNumber: 10
         }, this);
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -473,7 +313,7 @@ function AboutDocAI() {
             children: "At the same time, we strongly believe that medical decisions should always remain in the hands of qualified doctors."
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 496,
+            lineNumber: 96,
             columnNumber: 11
         }, this);
         $[9] = t10;
@@ -494,7 +334,7 @@ function AboutDocAI() {
                     children: "For Patients"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 507,
+                    lineNumber: 107,
                     columnNumber: 59
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -502,13 +342,13 @@ function AboutDocAI() {
                     children: "Clear reports, early alerts, peace of mind."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 507,
+                    lineNumber: 107,
                     columnNumber: 111
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 507,
+            lineNumber: 107,
             columnNumber: 11
         }, this);
         $[12] = t11;
@@ -545,7 +385,7 @@ function AboutDocAI() {
                                                 children: "For Doctors"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 514,
+                                                lineNumber: 114,
                                                 columnNumber: 351
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -553,36 +393,36 @@ function AboutDocAI() {
                                                 children: "Decision support, not replacement."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.js",
-                                                lineNumber: 514,
+                                                lineNumber: 114,
                                                 columnNumber: 402
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/about/page.js",
-                                        lineNumber: 514,
+                                        lineNumber: 114,
                                         columnNumber: 303
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 514,
+                                lineNumber: 114,
                                 columnNumber: 255
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 514,
+                        lineNumber: 114,
                         columnNumber: 212
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 514,
+                lineNumber: 114,
                 columnNumber: 49
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 514,
+            lineNumber: 114,
             columnNumber: 11
         }, this);
         $[13] = t12;
@@ -596,7 +436,7 @@ function AboutDocAI() {
             children: "Our Core Values"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 521,
+            lineNumber: 121,
             columnNumber: 11
         }, this);
         $[14] = t13;
@@ -614,7 +454,7 @@ function AboutDocAI() {
                     children: "Privacy & Trust"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 528,
+                    lineNumber: 128,
                     columnNumber: 59
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -622,13 +462,13 @@ function AboutDocAI() {
                     children: "Patient data is protected and respected."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 528,
+                    lineNumber: 128,
                     columnNumber: 118
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 528,
+            lineNumber: 128,
             columnNumber: 11
         }, this);
         $[15] = t14;
@@ -646,7 +486,7 @@ function AboutDocAI() {
                     children: "Doctor First"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 535,
+                    lineNumber: 135,
                     columnNumber: 61
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -654,13 +494,13 @@ function AboutDocAI() {
                     children: "AI assists, doctors decide."
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 535,
+                    lineNumber: 135,
                     columnNumber: 113
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 535,
+            lineNumber: 135,
             columnNumber: 11
         }, this);
         $[16] = t15;
@@ -689,7 +529,7 @@ function AboutDocAI() {
                                         children: "Human-Centric Care"
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.js",
-                                        lineNumber: 542,
+                                        lineNumber: 142,
                                         columnNumber: 204
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -697,30 +537,30 @@ function AboutDocAI() {
                                         children: "Technology that feels supportive, not overwhelming."
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.js",
-                                        lineNumber: 542,
+                                        lineNumber: 142,
                                         columnNumber: 262
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 542,
+                                lineNumber: 142,
                                 columnNumber: 157
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 542,
+                        lineNumber: 142,
                         columnNumber: 104
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 542,
+                lineNumber: 142,
                 columnNumber: 47
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 542,
+            lineNumber: 142,
             columnNumber: 11
         }, this);
         $[17] = t16;
@@ -734,7 +574,7 @@ function AboutDocAI() {
             children: "Datasets & Medical References"
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 549,
+            lineNumber: 149,
             columnNumber: 11
         }, this);
         $[18] = t17;
@@ -752,7 +592,7 @@ function AboutDocAI() {
                         children: "Dataset / Source"
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 556,
+                        lineNumber: 156,
                         columnNumber: 56
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -760,7 +600,7 @@ function AboutDocAI() {
                         children: "Health Focus"
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 556,
+                        lineNumber: 156,
                         columnNumber: 97
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -768,18 +608,18 @@ function AboutDocAI() {
                         children: "Usage in Doc.AI"
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 556,
+                        lineNumber: 156,
                         columnNumber: 134
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 556,
+                lineNumber: 156,
                 columnNumber: 52
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 556,
+            lineNumber: 156,
             columnNumber: 11
         }, this);
         $[19] = t18;
@@ -796,7 +636,7 @@ function AboutDocAI() {
                     children: "PIMA Indians Diabetes"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 563,
+                    lineNumber: 163,
                     columnNumber: 36
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -804,7 +644,7 @@ function AboutDocAI() {
                     children: "Diabetes Prediction"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 563,
+                    lineNumber: 163,
                     columnNumber: 82
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -812,13 +652,13 @@ function AboutDocAI() {
                     children: "Risk pattern inspiration"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 563,
+                    lineNumber: 163,
                     columnNumber: 126
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 563,
+            lineNumber: 163,
             columnNumber: 11
         }, this);
         $[20] = t19;
@@ -835,7 +675,7 @@ function AboutDocAI() {
                     children: "UCI Heart Disease"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 570,
+                    lineNumber: 170,
                     columnNumber: 36
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -843,7 +683,7 @@ function AboutDocAI() {
                     children: "Cardiac Risk"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 570,
+                    lineNumber: 170,
                     columnNumber: 78
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -851,13 +691,13 @@ function AboutDocAI() {
                     children: "Early warning indicators"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 570,
+                    lineNumber: 170,
                     columnNumber: 115
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 570,
+            lineNumber: 170,
             columnNumber: 11
         }, this);
         $[21] = t20;
@@ -874,7 +714,7 @@ function AboutDocAI() {
                     children: "Blood Test Reference Ranges"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 577,
+                    lineNumber: 177,
                     columnNumber: 36
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -882,7 +722,7 @@ function AboutDocAI() {
                     children: "Lab Interpretation"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 577,
+                    lineNumber: 177,
                     columnNumber: 88
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -890,13 +730,13 @@ function AboutDocAI() {
                     children: "Normal vs abnormal analysis"
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 577,
+                    lineNumber: 177,
                     columnNumber: 131
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 577,
+            lineNumber: 177,
             columnNumber: 11
         }, this);
         $[22] = t21;
@@ -937,7 +777,7 @@ function AboutDocAI() {
                                                             children: "Synthetic EHR Samples"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/about/page.js",
-                                                            lineNumber: 584,
+                                                            lineNumber: 184,
                                                             columnNumber: 316
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -945,7 +785,7 @@ function AboutDocAI() {
                                                             children: "Patient History"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/about/page.js",
-                                                            lineNumber: 584,
+                                                            lineNumber: 184,
                                                             columnNumber: 362
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -953,30 +793,30 @@ function AboutDocAI() {
                                                             children: "Trend & timeline tracking"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/about/page.js",
-                                                            lineNumber: 584,
+                                                            lineNumber: 184,
                                                             columnNumber: 402
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/about/page.js",
-                                                    lineNumber: 584,
+                                                    lineNumber: 184,
                                                     columnNumber: 291
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/about/page.js",
-                                            lineNumber: 584,
+                                            lineNumber: 184,
                                             columnNumber: 269
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/about/page.js",
-                                    lineNumber: 584,
+                                    lineNumber: 184,
                                     columnNumber: 230
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 584,
+                                lineNumber: 184,
                                 columnNumber: 169
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -984,24 +824,24 @@ function AboutDocAI() {
                                 children: "All datasets referenced are public, anonymized, or synthetic. No real patient data is used without consent."
                             }, void 0, false, {
                                 fileName: "[project]/app/about/page.js",
-                                lineNumber: 584,
+                                lineNumber: 184,
                                 columnNumber: 483
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/about/page.js",
-                        lineNumber: 584,
+                        lineNumber: 184,
                         columnNumber: 124
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/about/page.js",
-                    lineNumber: 584,
+                    lineNumber: 184,
                     columnNumber: 86
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/about/page.js",
-            lineNumber: 584,
+            lineNumber: 184,
             columnNumber: 11
         }, this);
         $[23] = t22;
@@ -1021,7 +861,7 @@ function _AboutDocAIAnonymous(t0, i) {
                 children: icon
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 593,
+                lineNumber: 193,
                 columnNumber: 68
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1029,7 +869,7 @@ function _AboutDocAIAnonymous(t0, i) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 593,
+                lineNumber: 193,
                 columnNumber: 111
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1037,13 +877,13 @@ function _AboutDocAIAnonymous(t0, i) {
                 children: desc
             }, void 0, false, {
                 fileName: "[project]/app/about/page.js",
-                lineNumber: 593,
+                lineNumber: 193,
                 columnNumber: 158
             }, this)
         ]
     }, i, true, {
         fileName: "[project]/app/about/page.js",
-        lineNumber: 593,
+        lineNumber: 193,
         columnNumber: 10
     }, this);
 }

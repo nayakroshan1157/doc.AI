@@ -66,7 +66,7 @@ export default function Home() {
               <p className="mt-2 text-sm text-slate-600">
                 Smart interpretation of lab reports and patient history.
               </p>
-            </div>
+            </div>     
             <div className="bg-white p-6 rounded-2xl shadow">
               <h3 className="font-semibold text-lg">Workflow Automation</h3>
               <p className="mt-2 text-sm text-slate-600">

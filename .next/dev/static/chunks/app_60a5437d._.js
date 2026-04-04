@@ -24,11 +24,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$profile$2f$AI__bot$2e
 ;
 function Home() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(17);
-    if ($[0] !== "b9e9b300d13e0fad08e0179fcc6036688c550eb7b6b2105ddd87148092242006") {
+    if ($[0] !== "85cbd8b74d40cc5dc16b1b6c5201aa0660d972d8c9021bc938ee1fa2a3278e94") {
         for(let $i = 0; $i < 17; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "b9e9b300d13e0fad08e0179fcc6036688c550eb7b6b2105ddd87148092242006";
+        $[0] = "85cbd8b74d40cc5dc16b1b6c5201aa0660d972d8c9021bc938ee1fa2a3278e94";
     }
     let t0;
     let t1;

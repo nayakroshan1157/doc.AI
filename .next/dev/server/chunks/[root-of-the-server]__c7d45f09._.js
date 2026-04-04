@@ -104,18 +104,18 @@ module.exports = mod;
 "[project]/app/api/auth/[...nextauth]/route.js [app-route] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// // import AppleProvider from 'next-auth/providers/apple'
-// // import FacebookProvider from 'next-auth/providers/facebook'
 __turbopack_context__.s([
     "GET",
     ()=>handler,
     "POST",
-    ()=>handler
+    ()=>handler,
+    "authOptions",
+    ()=>authOptions
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$google$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/providers/google.js [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$email$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/providers/email.js [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/index.js [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$github$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/providers/github.js [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$google$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/providers/google.js [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$credentials$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/providers/credentials.js [app-route] (ecmascript)");
 ;
 ;
 ;
@@ -126,24 +126,68 @@ const authOptions = {
             clientId: process.env.GITHUB_ID,
             clientSecret: process.env.GITHUB_SECRET
         }),
-        // AppleProvider({
-        //   clientId: process.env.APPLE_ID,
-        //   clientSecret: process.env.APPLE_SECRET
-        // }),
-        // FacebookProvider({
-        //   clientId: process.env.FACEBOOK_ID,
-        //   clientSecret: process.env.FACEBOOK_SECRET
-        // }),
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$google$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])({
             clientId: process.env.GOOGLE_ID,
             clientSecret: process.env.GOOGLE_SECRET
         }),
-        // // Passwordless / email sign in
-        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$email$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])({
-            server: process.env.MAIL_SERVER,
-            from: 'NextAuth.js <no-reply@example.com>'
+        // ADD THIS TO FIX THE FLICKER
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$providers$2f$credentials$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])({
+            name: "Credentials",
+            credentials: {
+                email: {
+                    label: "Email",
+                    type: "text"
+                },
+                password: {
+                    label: "Password",
+                    type: "password"
+                }
+            },
+            async authorize (credentials) {
+                // Send the login data to your Node.js/Express backend
+                const res = await fetch("http://localhost:5000/login", {
+                    method: 'POST',
+                    body: JSON.stringify(credentials),
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                });
+                const user = await res.json();
+                // If your backend returns user data, return it to NextAuth
+                if (res.ok && user) {
+                    return user;
+                }
+                return null;
+            }
         })
-    ]
+    ],
+    secret: process.env.NEXTAUTH_SECRET,
+    session: {
+        strategy: "jwt"
+    },
+    // app/api/auth/[...nextauth]/route.js
+    // ... providers setup ...
+    callbacks: {
+        async jwt ({ token, user }) {
+            // 'user' is the object returned from your Express fetch call
+            if (user) {
+                token.id = user.id || user._id;
+                token.email = user.email;
+                // CRITICAL: Map your backend field (e.g., user.name or user.username) to token.name
+                token.name = user.name || user.username;
+            }
+            return token;
+        },
+        async session ({ session, token }) {
+            // 'token' is what we created above. Now pass it to the browser session.
+            if (token) {
+                session.user.id = token.id;
+                session.user.name = token.name;
+                session.user.email = token.email;
+            }
+            return session;
+        }
+    }
 };
 const handler = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])(authOptions);
 ;
