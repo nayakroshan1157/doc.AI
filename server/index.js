@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const PatientModel = require('./models/patient'); // Ensure this path is correct
-const AppointmentModel = require('./models/consultation'); // Ensure this path is correct
+const ConsultationModel = require('./models/consultation'); // Ensure this path is correct
 
 const app = express();
 app.use(express.json()); // CRITICAL: This allows Express to read JSON from the frontend
@@ -52,21 +52,58 @@ app.post('/login', (req, res) => {
 });
 
 
-app.post('/consultations', async (req, res) => {
-    try {
-        const { date, slot, mode, patientId } = req.body;
+// app.post('/consultation', async (req, res) => {
+//     // try {
+//     //     const { date, slot, mode, patientId } = req.body;
 
-        const newAppointment = new AppointmentModel({
-            patientId, // Passed from your frontend session/state
+//     //     const newAppointment = new AppointmentModel({
+//     //         patientId, // Passed from your frontend session/state
+//     //         date,
+//     //         slot,
+//     //         mode
+//     //     });
+
+//     //     await newAppointment.save();
+//     //     res.status(201).json({ message: "Appointment Synchronized Successfully" });
+//     // } catch (error) {
+//     //     res.status(500).json({ error: "Database Error", details: error.message });
+//     // }
+    
+//   AppointmentModel.create(req.body)
+//     .then(appointments => res.json(appointments))
+//     .catch(err => res.status(400).json('Error: ' + err));
+// });
+
+
+app.post('/consultation', async (req, res) => {
+    try {
+        const { doctorName, date, slot, mode } = req.body;
+
+        // Check if the slot is already taken for that doctor on that date
+        const existingAppointment = await ConsultationModel.findOne({ doctorName, date, slot });
+        
+        if (existingAppointment) {
+            return res.status(400).json({ message: "This time node is already occupied." });
+        }
+
+        const newBooking = new ConsultationModel({
+            doctorName,
             date,
             slot,
             mode
         });
 
-        await newAppointment.save();
-        res.status(201).json({ message: "Appointment Synchronized Successfully" });
+        const savedBooking = await newBooking.save();
+        
+        res.status(201).json({ 
+            success: true, 
+            message: "Protocol Synchronized", 
+            data: savedBooking 
+        });
+
     } catch (error) {
-        res.status(500).json({ error: "Database Error", details: error.message });
+        console.error(error);
+        res.status(500).json({ message: "Neural Link Error: Database failed to save." });
     }
 });
 

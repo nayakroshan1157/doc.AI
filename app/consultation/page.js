@@ -4,15 +4,16 @@ import React, { useState } from "react";
 import Image from "next/image";
 import axios from "axios"; // Ensure axios is installed
 import { useRouter } from "next/navigation";
-
+import { useSession } from "next-auth/react";
 const BookAppointment = () => {
-  const router = useRouter();
-  
+  const { data: session } = useSession();
   // 1. Component States
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedSlot, setSelectedSlot] = useState("");
   const [mode, setMode] = useState("Virtual"); // Default mode
   const [loading, setLoading] = useState(false);
+  
+  // const router = useRouter();
 
   const timeSlots = [
     "09:00 AM", "10:30 AM", "12:00 PM", 
@@ -33,7 +34,8 @@ const BookAppointment = () => {
 
     try {
       // Submit to your backend (update URL to your actual API endpoint)
-      const result = await axios.post('http://localhost:5000/appointments/book', { 
+      const result = await axios.post('http://localhost:5000/consultation', { 
+        patientId: session.user.id, // <--- Add this line
         doctorName: "Dr. Sarah Chen",
         date: selectedDate, 
         slot: selectedSlot, 
@@ -41,9 +43,10 @@ const BookAppointment = () => {
       });
 
       console.log("Booking Successful:", result.data);
+      alert("Booking successful");
       
       // Redirect to a success page or dashboard
-      router.push('/dashboard?status=booked'); 
+      router.push('/'); 
     } catch (error) {
       console.error("Booking Error:", error.response?.data || error.message);
       alert("Scheduling failed. This time node might be occupied.");
