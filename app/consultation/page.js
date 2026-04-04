@@ -13,7 +13,7 @@ const BookAppointment = () => {
   const [mode, setMode] = useState("Virtual"); // Default mode
   const [loading, setLoading] = useState(false);
   
-  // const router = useRouter();
+  const router = useRouter();
 
   const timeSlots = [
     "09:00 AM", "10:30 AM", "12:00 PM", 

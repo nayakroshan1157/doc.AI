@@ -52,27 +52,7 @@ app.post('/login', (req, res) => {
 });
 
 
-// app.post('/consultation', async (req, res) => {
-//     // try {
-//     //     const { date, slot, mode, patientId } = req.body;
 
-//     //     const newAppointment = new AppointmentModel({
-//     //         patientId, // Passed from your frontend session/state
-//     //         date,
-//     //         slot,
-//     //         mode
-//     //     });
-
-//     //     await newAppointment.save();
-//     //     res.status(201).json({ message: "Appointment Synchronized Successfully" });
-//     // } catch (error) {
-//     //     res.status(500).json({ error: "Database Error", details: error.message });
-//     // }
-    
-//   AppointmentModel.create(req.body)
-//     .then(appointments => res.json(appointments))
-//     .catch(err => res.status(400).json('Error: ' + err));
-// });
 
 
 app.post('/consultation', async (req, res) => {

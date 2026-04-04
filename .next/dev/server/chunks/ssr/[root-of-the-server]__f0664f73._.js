@@ -60,49 +60,6 @@ const Login = ()=>{
             setError("An unexpected error occurred.");
         }
     };
-    // return (
-    //     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-    //         <form className="bg-white p-8 rounded-2xl shadow-lg w-96" onSubmit={handleSubmit}>
-    //             <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">LOGIN</h2>
-    //             {error && (
-    //                 <div className="mb-4 p-2 text-sm text-red-600 bg-red-100 rounded text-center">
-    //                     {error}
-    //                 </div>
-    //             )}
-    //             <div className="mb-4">
-    //                 <label className="block mb-1 text-sm font-medium text-gray-700">Email</label>
-    //                 <input
-    //                     type="email"
-    //                     placeholder="Enter your email"
-    //                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 text-black"
-    //                     onChange={(e) => setEmail(e.target.value)}
-    //                     value={email}
-    //                     required
-    //                 />
-    //             </div>
-    //             <div className="mb-6">
-    //                 <label className="block mb-1 text-sm font-medium text-gray-700">Password</label>
-    //                 <input
-    //                     type="password"
-    //                     placeholder="Enter your password"
-    //                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 text-black"
-    //                     onChange={(e) => setPassword(e.target.value)}
-    //                     value={password}
-    //                     required
-    //                 />
-    //             </div>
-    //             <button type="submit" className="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition font-semibold shadow-md">
-    //                 Login
-    //             </button>
-    //         </form>
-    //         <p className="text-sm text-center mt-4 text-gray-600">
-    //             Don't have an account?{" "}
-    //             <Link href="/register" className="text-blue-500 hover:underline">
-    //                 Register
-    //             </Link>
-    //         </p>
-    //     </div>
-    // );
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "relative min-h-screen w-full flex items-center justify-center overflow-hidden",
         children: [
@@ -116,14 +73,14 @@ const Login = ()=>{
                 }
             }, void 0, false, {
                 fileName: "[project]/app/login/page.js",
-                lineNumber: 91,
+                lineNumber: 43,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 z-0 bg-gradient-to-br from-sky-950/90 via-[#030712]/80 to-emerald-950/50"
             }, void 0, false, {
                 fileName: "[project]/app/login/page.js",
-                lineNumber: 102,
+                lineNumber: 54,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -134,7 +91,7 @@ const Login = ()=>{
                 }
             }, void 0, false, {
                 fileName: "[project]/app/login/page.js",
-                lineNumber: 105,
+                lineNumber: 57,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -150,7 +107,7 @@ const Login = ()=>{
                                     children: "Welcome Back"
                                 }, void 0, false, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 112,
+                                    lineNumber: 64,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -158,13 +115,13 @@ const Login = ()=>{
                                     children: "Secure access to MEDIFLO Intelligence"
                                 }, void 0, false, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 115,
+                                    lineNumber: 67,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/login/page.js",
-                            lineNumber: 111,
+                            lineNumber: 63,
                             columnNumber: 9
                         }, ("TURBOPACK compile-time value", void 0)),
                         error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -172,7 +129,7 @@ const Login = ()=>{
                             children: error
                         }, void 0, false, {
                             fileName: "[project]/app/login/page.js",
-                            lineNumber: 119,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -186,7 +143,7 @@ const Login = ()=>{
                                             children: "Email Address"
                                         }, void 0, false, {
                                             fileName: "[project]/app/login/page.js",
-                                            lineNumber: 126,
+                                            lineNumber: 78,
                                             columnNumber: 13
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -198,13 +155,13 @@ const Login = ()=>{
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/app/login/page.js",
-                                            lineNumber: 127,
+                                            lineNumber: 79,
                                             columnNumber: 13
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 125,
+                                    lineNumber: 77,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -214,7 +171,7 @@ const Login = ()=>{
                                             children: "Password"
                                         }, void 0, false, {
                                             fileName: "[project]/app/login/page.js",
-                                            lineNumber: 138,
+                                            lineNumber: 90,
                                             columnNumber: 13
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -226,13 +183,13 @@ const Login = ()=>{
                                             required: true
                                         }, void 0, false, {
                                             fileName: "[project]/app/login/page.js",
-                                            lineNumber: 139,
+                                            lineNumber: 91,
                                             columnNumber: 13
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 137,
+                                    lineNumber: 89,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -241,13 +198,13 @@ const Login = ()=>{
                                     children: "Sign In to Portal"
                                 }, void 0, false, {
                                     fileName: "[project]/app/login/page.js",
-                                    lineNumber: 149,
+                                    lineNumber: 101,
                                     columnNumber: 11
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/login/page.js",
-                            lineNumber: 124,
+                            lineNumber: 76,
                             columnNumber: 9
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -263,35 +220,35 @@ const Login = ()=>{
                                         children: "Join Now"
                                     }, void 0, false, {
                                         fileName: "[project]/app/login/page.js",
-                                        lineNumber: 160,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/login/page.js",
-                                lineNumber: 158,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/app/login/page.js",
-                            lineNumber: 157,
+                            lineNumber: 109,
                             columnNumber: 9
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/login/page.js",
-                    lineNumber: 109,
+                    lineNumber: 61,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/login/page.js",
-                lineNumber: 108,
+                lineNumber: 60,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/login/page.js",
-        lineNumber: 88,
+        lineNumber: 40,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 };

@@ -35,55 +35,7 @@ const Login = () => { // REMOVED 'async' from here
         }
     };
 
-    // return (
-    //     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-    //         <form className="bg-white p-8 rounded-2xl shadow-lg w-96" onSubmit={handleSubmit}>
-    //             <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">LOGIN</h2>
-
-    //             {error && (
-    //                 <div className="mb-4 p-2 text-sm text-red-600 bg-red-100 rounded text-center">
-    //                     {error}
-    //                 </div>
-    //             )}
-
-    //             <div className="mb-4">
-    //                 <label className="block mb-1 text-sm font-medium text-gray-700">Email</label>
-    //                 <input
-    //                     type="email"
-    //                     placeholder="Enter your email"
-    //                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 text-black"
-    //                     onChange={(e) => setEmail(e.target.value)}
-    //                     value={email}
-    //                     required
-    //                 />
-    //             </div>
-
-    //             <div className="mb-6">
-    //                 <label className="block mb-1 text-sm font-medium text-gray-700">Password</label>
-    //                 <input
-    //                     type="password"
-    //                     placeholder="Enter your password"
-    //                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 text-black"
-    //                     onChange={(e) => setPassword(e.target.value)}
-    //                     value={password}
-    //                     required
-    //                 />
-    //             </div>
-
-    //             <button type="submit" className="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition font-semibold shadow-md">
-    //                 Login
-    //             </button>
-    //         </form>
-
-    //         <p className="text-sm text-center mt-4 text-gray-600">
-    //             Don't have an account?{" "}
-    //             <Link href="/register" className="text-blue-500 hover:underline">
-    //                 Register
-    //             </Link>
-    //         </p>
-    //     </div>
-    // );
-
+   
     return (
   <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
     

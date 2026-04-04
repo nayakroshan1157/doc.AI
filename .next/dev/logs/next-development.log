@@ -10,3 +10,8 @@
 [00:01:03.115] Browser ERROR   Booking Error: {"message":"This time node is already occupied."}
 [00:01:11.821] Browser LOG     Booking Successful: {"data":{"__v":0,"_id":"69d10de346ddf8dcb1c97569","createdAt":"2026-04-04T13:10:59.184Z","date":"2026-05-05","doctorName":"Dr. Sarah Chen","mode":"Virtual","slot":"10:30 AM","status":"Confirmed"},"message":"Protocol Synchronized","success":true}
 [00:01:11.821] Browser ERROR   Booking Error: router is not defined
+[00:05:11.825] Server  LOG      ✓ Compiled in 701ms
+[00:05:14.253] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/doctor-placeholder.png" "received" null
+[00:05:36.432] Browser LOG     Booking Successful: {"data":{"__v":0,"_id":"69d10eee46ddf8dcb1c9756c","createdAt":"2026-04-04T13:15:26.615Z","date":"2026-04-20","doctorName":"Dr. Sarah Chen","mode":"Virtual","slot":"09:00 AM","status":"Confirmed"},"message":"Protocol Synchronized","success":true}
+[00:08:16.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:16.292] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
