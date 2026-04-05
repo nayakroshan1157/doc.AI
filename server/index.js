@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const PatientModel = require('./models/patient'); // Ensure this path is correct
 const ConsultationModel = require('./models/consultation'); // Ensure this path is correct
+const transporter = require('./transporter/mailTransporter');
 
 const app = express();
 app.use(express.json()); // CRITICAL: This allows Express to read JSON from the frontend
@@ -55,36 +56,55 @@ app.post('/login', (req, res) => {
 
 
 
+// app.post('/consultation', async (req, res) => {
+//     try {
+//         const { doctorName, date, slot, mode } = req.body;
+
+//         // Check if the slot is already taken for that doctor on that date
+//         const existingAppointment = await ConsultationModel.findOne({ doctorName, date, slot });
+        
+//         if (existingAppointment) {
+//             return res.status(400).json({ message: "This time node is already occupied." });
+//         }
+
+//         const newBooking = new ConsultationModel({
+//             doctorName,
+//             date,
+//             slot,
+//             mode
+//         });
+
+//         const savedBooking = await newBooking.save();
+        
+//         res.status(201).json({ 
+//             success: true, 
+//             message: "Protocol Synchronized", 
+//             data: savedBooking 
+//         });
+
+//     } catch (error) {
+//         console.error(error);
+//         res.status(500).json({ message: "Neural Link Error: Database failed to save." });
+//     }
+// });
+
+
+// --- server.js ---
+
 app.post('/consultation', async (req, res) => {
     try {
-        const { doctorName, date, slot, mode } = req.body;
-
-        // Check if the slot is already taken for that doctor on that date
-        const existingAppointment = await ConsultationModel.findOne({ doctorName, date, slot });
-        
-        if (existingAppointment) {
-            return res.status(400).json({ message: "This time node is already occupied." });
-        }
-
-        const newBooking = new ConsultationModel({
-            doctorName,
-            date,
-            slot,
-            mode
-        });
-
+        const newBooking = new ConsultationModel(req.body);
         const savedBooking = await newBooking.save();
-        
+
+        // We only save to DB and return the ID. 
+        // The Frontend handles the Email via EmailJS.
         res.status(201).json({ 
             success: true, 
-            message: "Protocol Synchronized", 
-            data: savedBooking 
+            bookingId: savedBooking._id 
         });
-
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: "Neural Link Error: Database failed to save." });
+    } catch (err) {
+        console.error("Database Error:", err);
+        res.status(500).json({ message: "DB Protocol Failure" });
     }
 });
-
 app.listen(5000, () => console.log("Server running on port 5000"));

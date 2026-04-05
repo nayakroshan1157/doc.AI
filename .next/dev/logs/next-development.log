@@ -1,17 +1,131 @@
-[00:00:02.816] Server  LOG      ✓ Ready in 1891ms
-[00:00:10.160] Server  LOG      ○ Compiling / ...
-[00:00:17.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:17.543] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:20.678] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[00:00:20.764] Server  ERROR   [next-auth][error][JWT_SESSION_ERROR] "\nhttps://next-auth.js.org/errors#jwt_session_error" "decryption operation failed" {}
-[00:00:47.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:48.047] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:51.398] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/doctor-placeholder.png" "received" null
-[00:01:03.115] Browser ERROR   Booking Error: {"message":"This time node is already occupied."}
-[00:01:11.821] Browser LOG     Booking Successful: {"data":{"__v":0,"_id":"69d10de346ddf8dcb1c97569","createdAt":"2026-04-04T13:10:59.184Z","date":"2026-05-05","doctorName":"Dr. Sarah Chen","mode":"Virtual","slot":"10:30 AM","status":"Confirmed"},"message":"Protocol Synchronized","success":true}
-[00:01:11.821] Browser ERROR   Booking Error: router is not defined
-[00:05:11.825] Server  LOG      ✓ Compiled in 701ms
-[00:05:14.253] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/doctor-placeholder.png" "received" null
-[00:05:36.432] Browser LOG     Booking Successful: {"data":{"__v":0,"_id":"69d10eee46ddf8dcb1c9756c","createdAt":"2026-04-04T13:15:26.615Z","date":"2026-04-20","doctorName":"Dr. Sarah Chen","mode":"Virtual","slot":"09:00 AM","status":"Confirmed"},"message":"Protocol Synchronized","success":true}
-[00:08:16.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:16.292] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.621] Server  LOG      ✓ Ready in 4s
+[00:02:13.257] Server  LOG      ○ Compiling / ...
+[00:02:21.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.866] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:24.614] Server  LOG      ○ Compiling /[username] ...
+[00:02:26.531] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/logo.png" "received" null
+[00:02:26.566] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\image-optimizer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.575] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.586] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\server\response-cache\index.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.593] Server  ERROR   C:\Users\nayak\OneDrive\Desktop\doc.ai\node_modules\next\dist\lib\batcher.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:26.604] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:02:26.841] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
+[00:06:04.345] Server  LOG      ✓ Compiled in 158ms
+[00:06:05.131] Browser ERROR   ./app/profile/page.js:136:32
+Parsing ecmascript source code failed
+  134 |       {/* <!-- Actions --> */}
+  135 |       <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+> 136 |         <a href="/consultation"<button className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition">
+      |                                ^
+  137 |           Book Appointment
+  138 |         </button>
+  139 |         <button className="px-8 py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/profile/page.js [Client Component Browser]
+    ./app/profile/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/profile/page.js [Client Component SSR]
+    ./app/profile/page.js [Server Component]
+[00:06:08.103] Browser ERROR   ./app/profile/page.js:136:32
+Parsing ecmascript source code failed
+  134 |       {/* <!-- Actions --> */}
+  135 |       <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+> 136 |         <a href="/consultation"<button className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition">
+      |                                ^
+  137 |           Book Appointment
+  138 |         </button>
+  139 |         <button className="px-8 py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/profile/page.js [Client Component Browser]
+    ./app/profile/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/profile/page.js [Client Component SSR]
+    ./app/profile/page.js [Server Component]
+[00:06:11.658] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/profile/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:06:13.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:13.994] Server  LOG      ✓ Compiled in 75ms
+[00:06:15.117] Browser ERROR   ./app/profile/page.js:141:18
+Parsing ecmascript source code failed
+  139 |         <a href="/ai-health-report" className="px-8 py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
+  140 |           View AI Health Report
+> 141 |         </button>
+      |                  ^
+> 142 |       </div>
+      | ^^^^^^^
+  143 |
+  144 |     </div>
+  145 |   </div>
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./app/profile/page.js [Client Component Browser]
+    ./app/profile/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/profile/page.js [Client Component SSR]
+    ./app/profile/page.js [Server Component]
+[00:06:15.117] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:06:15.117] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/profile" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_2ae47f08-module__h69qWW__variable geist_mono_eb58308d-module__w_p2Lq__var..."
+-                           style={{}}
+                          >
+                  ...
+
+[00:07:09.820] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/profile/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:07:09.836] Server  LOG      ✓ Compiled in 75ms
+[00:07:10.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:12.444] Server  LOG      ✓ Compiled in 72ms
+[00:07:12.488] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/profile/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:07:13.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:16.377] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:22.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:22.292] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:22.385] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/doctor-placeholder.png" "received" null
+[00:07:28.880] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:29.054] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:32.289] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:32.434] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

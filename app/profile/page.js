@@ -133,12 +133,12 @@ const profile = ({params}) => {
 
       {/* <!-- Actions --> */}
       <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-        <button className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition">
+        <a href="/consultation" className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-lg hover:scale-105 transition">
           Book Appointment
-        </button>
-        <button className="px-8 py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
+        </a>
+        <a href="/service" className="px-8 py-3 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
           View AI Health Report
-        </button>
+        </a>
       </div>
 
     </div>

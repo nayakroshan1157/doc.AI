@@ -1,12 +1,26 @@
+
+
 const mongoose = require('mongoose');
 
 const ConsultationSchema = new mongoose.Schema({
-    // Optional: If you want to link it to the logged-in patient
-    // Note: You'll need to send patientId from the frontend or get it from the session on the backend
+    // Link to the logged-in patient (Optional/Guest support)
     patientId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'patients',
-        required: false // Set to true if you require a login to book
+        required: false 
+    },
+    // NEW: Store the patient's full name
+    patientName: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    // Store the email for reference and dispatch tracking
+    patientEmail: {
+        type: String,
+        required: true,
+        trim: true,
+        lowercase: true
     },
     doctorName: {
         type: String,
@@ -14,15 +28,15 @@ const ConsultationSchema = new mongoose.Schema({
         default: "Dr. Sarah Chen"
     },
     date: {
-        type: String, // Matches the 'selectedDate' state (YYYY-MM-DD)
+        type: String, // Stored as YYYY-MM-DD
         required: true
     },
     slot: {
-        type: String, // Matches the 'selectedSlot' state (e.g., "10:30 AM")
+        type: String, // Stored as "10:30 AM"
         required: true
     },
     mode: {
-        type: String, // Matches the 'mode' state ("Virtual" or "In-Person")
+        type: String, 
         enum: ['Virtual', 'In-Person'],
         default: 'Virtual'
     },
@@ -37,7 +51,7 @@ const ConsultationSchema = new mongoose.Schema({
     }
 });
 
-// Using 'consultations' as the collection name to match your route /consultation
+// Explicitly using 'consultations' as the collection name
 const ConsultationModel = mongoose.model('consultations', ConsultationSchema);
 
 module.exports = ConsultationModel;
